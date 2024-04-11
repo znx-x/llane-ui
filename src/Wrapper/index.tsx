@@ -4,7 +4,7 @@ interface ComponentProps {
   background?: string;
   backgroundImage?: string;
   margin?: string;
-  overflow: string;
+  overflow?: string;
   padding?: string;
   width?: string;
 }
