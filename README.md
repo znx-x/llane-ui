@@ -7,19 +7,19 @@ Llanne UI is an open-source project, ready-to-use React.js components library th
 
 ## Install Llane UI
 
-> [!NOTE]
-> If you have already deployed Llane UI and wants to rebuild it, you will need to use the commands `npm run build` if you are on Linux or MacOs or `npm run build-w` if you are on Windows.
-
 You can install LLane UI by running:
 ```shell
 npm install
 ```
 
-## Build/Deploy Llane UI
+## Build Llane UI
 
-You can deploy Llane UI by running the following command:
+> [!NOTE]
+> If you have already built Llane UI and wants to rebuild it, you will need to use the commands `npm run rebuild-unix` if you are on Linux or MacOs or `npm run rebuild-windows` if you are on Windows.
+
+You can build Llane UI by running the following command:
 ```shell
-npm run deploy
+npm run build
 ```
 
 This will compile Llane UI to your `/dist` folder, which will then be used by your application to import the Llane UI components.

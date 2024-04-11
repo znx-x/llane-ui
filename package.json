@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist && tsc",
-    "build-w": "rmdir /q /s dist && tsc",
-    "deploy": "tsc",
+    "rebuild-unix": "rm -rf dist && tsc",
+    "rebuild-windows": "rmdir /q /s dist && tsc",
+    "build": "tsc",
     "prepublish": "npm run build",
     "test": "react-scripts start",
     "eject": "react-scripts eject"
