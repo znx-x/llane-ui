@@ -67,7 +67,7 @@ Full list of supported components. Each component might have their own custom pr
 - **Header**
 - **Icons**
 - **Input**
-- **Link:** `Link` `LinkWrapper`
+- ✅ **Link:** `Link` `LinkWrapper`
 - ✅ **Typography:** `HeadingExtraLarge` `HeadingLarge` `Heading` `HeadingSmall` `HeadingExtraSmall` `HeadingTiny` `TextExtraLarge` `TextLarge` `Text` `TextSmall` `TextExtraSmall` `TextDimmed`
 - **Spacer**
 - **Span**
