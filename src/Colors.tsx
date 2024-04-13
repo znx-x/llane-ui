@@ -1,5 +1,5 @@
 /*
- * Exports all the colors used by Lluna UI
+ * Exports all the colors used by Llane UI
  *
  * We do not recommend altering the color sheet. Instead, if you need to change a
  * component's color property to a custom color, you can instead create and export

@@ -28,8 +28,6 @@ export * from './TextArea'
 export * from './Typography'
 export * from './Wrapper'
 
-
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
