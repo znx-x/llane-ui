@@ -10,7 +10,7 @@ interface ComponentProps {
 
 export const HeadingExtraLarge = styled.h1<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "3rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -18,7 +18,7 @@ export const HeadingExtraLarge = styled.h1<ComponentProps>`
 
 export const HeadingLarge = styled.h2<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "2rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -26,7 +26,7 @@ export const HeadingLarge = styled.h2<ComponentProps>`
 
 export const Heading = styled.h3<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "1.5rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -34,7 +34,7 @@ export const Heading = styled.h3<ComponentProps>`
 
 export const HeadingSmall = styled.h4<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "1.2rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -42,7 +42,7 @@ export const HeadingSmall = styled.h4<ComponentProps>`
 
 export const HeadingExtraSmall = styled.h5<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "1rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -50,7 +50,7 @@ export const HeadingExtraSmall = styled.h5<ComponentProps>`
 
 export const HeadingTiny = styled.h6<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "0.8rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -58,7 +58,7 @@ export const HeadingTiny = styled.h6<ComponentProps>`
 
 export const TextExtraLarge = styled.p<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "2rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -66,7 +66,7 @@ export const TextExtraLarge = styled.p<ComponentProps>`
 
 export const TextLarge = styled.p<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "1.5rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -74,7 +74,7 @@ export const TextLarge = styled.p<ComponentProps>`
 
 export const Text = styled.p<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "1rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -82,7 +82,7 @@ export const Text = styled.p<ComponentProps>`
 
 export const TextSmall = styled.p<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "0.8rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -90,7 +90,7 @@ export const TextSmall = styled.p<ComponentProps>`
 
 export const TextExtraSmall = styled.p<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || SecondaryColor}
+    color: ${(props) => props.color || SecondaryColor};
     font-size: ${(props) => props.size || "3rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
@@ -98,7 +98,7 @@ export const TextExtraSmall = styled.p<ComponentProps>`
 
 export const TextDimmed = styled.p<ComponentProps>`
     margin: auto;
-    color: ${(props) => props.color || Gray}
+    color: ${(props) => props.color || Gray};
     font-size: ${(props) => props.size || "3rem"};
     font-weight: ${(props) => props.weight || "normal"};
     text-decoration: ${(props) => props.decoration || "none"}
