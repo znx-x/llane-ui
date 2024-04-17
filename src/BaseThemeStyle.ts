@@ -5,7 +5,7 @@ export const BorderThickness = `1px`;
 
 // Box
 export const BoxPadding = `20px`;
-export const BoxBorderRadius = `5px`;
+export const BoxBorderRadius = `10px`;
 
 // Button
 export const ButtonPadding = `10px 15px`;
@@ -23,6 +23,6 @@ export const InputPadding = `10px 15px`;
 export const InputFontSize = `0.9rem`;
 
 // Text Area
-export const TextAreaBorderRadius = `5px`;
+export const TextAreaBorderRadius = `10px`;
 export const TextAreaPadding = `20px`;
 export const TextAreaFontSize = `1rem`;
