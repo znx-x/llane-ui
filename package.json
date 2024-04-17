@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "rebuild-unix": "rm -rf dist && tsc",
-    "rebuild-windows": "rmdir /q /s dist && tsc",
-    "build": "tsc",
+    "rebuild-unix": "rm -rf dist && tsc && node dist-icon.js",
+    "rebuild-windows": "rmdir /q /s dist && tsc && node dist-icon.js",
+    "build": "tsc && node dist-icon.js",
     "prepublish": "npm run build",
     "test": "react-scripts start",
     "eject": "react-scripts eject"
