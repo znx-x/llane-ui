@@ -3,10 +3,8 @@
  * sequentially. You can run the test page using 'npm run start' in your console.
  */
 import {
-  // ./Link
   Link,
   LinkWrapper,
-  // ./Typography
   HeadingExtraLarge,
   HeadingLarge,
   Heading,
@@ -19,9 +17,7 @@ import {
   TextSmall,
   TextExtraSmall,
   TextDimmed,
-  // Button
   Button,
-  // ./Wrapper
   AppWrapper,
   PageWrapper,
   ButtonAlt,
@@ -36,8 +32,14 @@ import {
   ButtonLink,
   ButtonLinkAlt,
   ButtonLinkOutlined,
-  ButtonLinkOutlinedAlt
+  ButtonLinkOutlinedAlt,
+  FlexContainer,
+  GridContainer,
+  Span,
+  TextArea,
+  TextAreaOutlined
 } from "./";
+import { Container } from "./Container";
 
 function TestComponents() {
   return (
@@ -62,27 +64,25 @@ function TestComponents() {
             <TextDimmed>Text Dimmed</TextDimmed>
           </Box>
           <Spacer />
-          <Box>
+          <BoxOutlined>
             <HeadingLarge>Link Components</HeadingLarge>
-            <Link href="#">Example of a link.</Link>
+            <Link href="#">Link Example</Link>
             <LinkWrapper href="#">
-              <BoxOutlined>
+              <Box>
                 <Text>
-                  <b>
-                    Here a LinkWrapper component wraps around the BoxOutlined to
-                    make the entire component clickable.
-                  </b>
+                  Here a LinkWrapper component wraps around the BoxOutlined to
+                  make the entire component clickable.
                 </Text>
-              </BoxOutlined>
+              </Box>
             </LinkWrapper>
-          </Box>
+          </BoxOutlined>
           <Spacer />
           <Box>
             <HeadingLarge>Buttons</HeadingLarge>
-            <Button width="300px">Button</Button>
-            <ButtonAlt width="300px">Button Alternative</ButtonAlt>
-            <ButtonOutlined width="300px">Button Outlined</ButtonOutlined>
-            <ButtonOutlinedAlt width="300px">
+            <Button width="240px">Button</Button>
+            <ButtonAlt width="240px">Button Alternative</ButtonAlt>
+            <ButtonOutlined width="240px">Button Outlined</ButtonOutlined>
+            <ButtonOutlinedAlt width="240px">
               Button Outlined Alternative
             </ButtonOutlinedAlt>
           </Box>
@@ -94,12 +94,12 @@ function TestComponents() {
               second is rendered as a link, therefore it accepts direct link
               props, such as <b>href</b> or <b>target</b>.
             </TextSmall>
-            <ButtonLink width="300px">Button Link</ButtonLink>
-            <ButtonLinkAlt width="300px">Button Link Alternative</ButtonLinkAlt>
-            <ButtonLinkOutlined width="300px">
+            <ButtonLink width="240px">Button Link</ButtonLink>
+            <ButtonLinkAlt width="240px">Button Link Alternative</ButtonLinkAlt>
+            <ButtonLinkOutlined width="240px">
               Button Link Outlined
             </ButtonLinkOutlined>
-            <ButtonLinkOutlinedAlt width="300px">
+            <ButtonLinkOutlinedAlt width="240px">
               Button Link Outlined Alternative
             </ButtonLinkOutlinedAlt>
           </Box>
@@ -111,8 +111,8 @@ function TestComponents() {
           <Spacer />
           <BoxOutlined>
             <HeadingLarge>Input Components</HeadingLarge>
-            <Input width="300px" placeholder="Input component..." />
-            <InputOutlined width="300px" placeholder="Input outlined..." />
+            <Input placeholder="Input component..." />
+            <InputOutlined placeholder="Input outlined..." />
           </BoxOutlined>
           <Spacer />
           <BoxOutlined>
@@ -120,11 +120,66 @@ function TestComponents() {
             <Box>
               <Text>Text Nested in Box Element</Text>
             </Box>
-            <BoxOutlined alignHorizontal="center">
+            <Box alignHorizontal="center">
               <HeadingLarge>Heading Nested in Box Component</HeadingLarge>
               <Text>Text Nested in Box Component</Text>
-              <ButtonLink width="300px">Example Button</ButtonLink>
-            </BoxOutlined>
+              <ButtonLink>Example Button</ButtonLink>
+            </Box>
+          </BoxOutlined>
+          <Spacer />
+          <Box>
+            <HeadingLarge>Containers</HeadingLarge>
+            <Container>
+              <Text>
+                Example of a text nested in a simple Container component.
+              </Text>
+            </Container>
+          </Box>
+          <Spacer />
+          <BoxOutlined>
+            <HeadingLarge>Flex Containers (Row Direction)</HeadingLarge>
+            <TextSmall>* Automatically adjusts for mobile screens.</TextSmall>
+            <FlexContainer breakDirection="row" gap="1rem">
+              <Box width="100%">Example of Box Inside Flex Container (ROW)</Box>
+              <Box width="100%">Example of Box Inside Flex Container (ROW)</Box>
+              <Box width="100%">Example of Box Inside Flex Container (ROW)</Box>
+            </FlexContainer>
+          </BoxOutlined>
+          <Spacer />
+          <BoxOutlined>
+            <HeadingLarge>Flex Containers (Column Direction)</HeadingLarge>
+            <TextSmall>* Automatically adjusts for mobile screens.</TextSmall>
+            <FlexContainer breakDirection="column" gap="1rem">
+              <Box>Example of Box Inside Flex Container (COLUMN)</Box>
+              <Box>Example of Box Inside Flex Container (COLUMN)</Box>
+              <Box>Example of Box Inside Flex Container (COLUMN)</Box>
+            </FlexContainer>
+          </BoxOutlined>
+          <Spacer />
+          <BoxOutlined>
+            <HeadingLarge>Grid Containers</HeadingLarge>
+            <GridContainer gap="1rem">
+              <Box>Example of Box Inside Grid Container</Box>
+              <Box>Example of Box Inside Grid Container</Box>
+              <Box>Example of Box Inside Grid Container</Box>
+            </GridContainer>
+          </BoxOutlined>
+          <Spacer />
+          <Box>
+            <HeadingLarge>Span Components</HeadingLarge>
+            <Text>
+              Example of{" "}
+              <Span>
+                <b>SPAN text</b>
+              </Span>{" "}
+              inside a Box component
+            </Text>
+          </Box>
+          <Spacer />
+          <BoxOutlined>
+            <HeadingLarge>Text Area</HeadingLarge>
+            <TextArea placeholder="This is a text area component..." />
+            <TextAreaOutlined placeholder="This is a text area component..." />
           </BoxOutlined>
         </PageWrapper>
       </AppWrapper>

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { BorderColor, ComponentBackground, Transparent } from "../Colors";
 import {
-  BorderRadius,
   BorderThickness,
   BoxBorderRadius,
   BoxPadding,
@@ -35,6 +34,9 @@ interface ComponentProps {
     | "space-around"
     | "space-evenly";
   alignText?: string;
+  width?: string;
+  height?: string;
+  overflow?: string;
 }
 
 // Helper function to translate alignment props to CSS values
@@ -70,9 +72,15 @@ export const Box = styled.div<ComponentProps>`
   gap: ${(props) => props.gap || DefaultGap};
   padding: ${(props) => props.padding || BoxPadding};
   margin: ${(props) => props.margin};
-  text-align: ${(props) => props.alignText || "left"};
+  text-align: ${(props) => props.alignText};
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  overflow: ${(props) => props.overflow};
   &:hover {
     background: ${(props) => props.backgroundHover};
+  }
+  @media (max-width: 769px) {
+    width: auto;
   }
 `;
 
@@ -90,8 +98,14 @@ export const BoxOutlined = styled.div<ComponentProps>`
   gap: ${(props) => props.gap || DefaultGap};
   padding: ${(props) => props.padding || BoxPadding};
   margin: ${(props) => props.margin};
-  text-align: ${(props) => props.alignText || "left"};
+  text-align: ${(props) => props.alignText};
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  overflow: ${(props) => props.overflow};
   &:hover {
     background: ${(props) => props.backgroundHover};
+  }
+  @media (max-width: 769px) {
+    width: auto;
   }
 `;

@@ -1,24 +1,28 @@
 import styled from 'styled-components'
+import { LinkColor, TextColor } from '../Colors';
 
 interface ComponentProps {
     size?: string;
     weight?: string;
     decoration?: string;
-    hoverDecoration?: string;
+    decorationHover?: string;
     color?: string;
+    colorHover?: string;
     margin?: string;
   }
 
 export const Link = styled.a<ComponentProps>`
-    color: ${(props) => props.color};
-    font-size: ${(props) => props.size || 'auto' };
-    font-weight: ${(props) => props.weight || 'normal' };
-    text-decoration: ${(props) => props.decoration || 'none' };
+    color: ${(props) => props.color || LinkColor};
+    font-size: ${(props) => props.size || 'auto'};
+    font-weight: ${(props) => props.weight || 'normal'};
+    text-decoration: ${(props) => props.decoration || 'none'};
     &:hover {
-        text=decoration: ${(props) => props.hoverDecoration || 'underline' }
+        color: ${(props) => props.colorHover || LinkColor};
+        text-decoration: ${(props) => props.decorationHover || 'underline'};
     }
 `
 
 export const LinkWrapper = styled.a<ComponentProps>`
-    margin: ${(props) => props.margin};
+    margin: 0;
+    text-decoration: none;
 `

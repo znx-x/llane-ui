@@ -21,3 +21,8 @@ export const DividerLineThickness = `1px`;
 // Input
 export const InputPadding = `10px 15px`;
 export const InputFontSize = `0.9rem`;
+
+// Text Area
+export const TextAreaBorderRadius = `5px`;
+export const TextAreaPadding = `20px`;
+export const TextAreaFontSize = `1rem`;

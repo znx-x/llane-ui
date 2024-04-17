@@ -84,19 +84,19 @@ Full list of supported components. Each component might have their own custom pr
 
 - **Box**
 - ✅ **Button:** `Button` `ButtonAlt` `ButtonOutlined` `ButtonOutlinedAlt`
-- **Container**
+- ✅ **Container:** `Container`
 - ✅ **Divider:** `Divider`
 - **Dropdown**
-- **FlexContainer**
+- ✅ **FlexContainer:** `FlexContainer`
 - **Footer**
-- **GridContainer**
+- ✅ **GridContainer:** `GridContainer`
 - **Header**
 - ✅ **Icons**
 - ✅ **Input:** `Input` `InputOutlined`
 - ✅ **Link:** `Link` `LinkWrapper`
 - ✅ **Typography:** `HeadingExtraLarge` `HeadingLarge` `Heading` `HeadingSmall` `HeadingExtraSmall` `HeadingTiny` `TextExtraLarge` `TextLarge` `Text` `TextSmall` `TextExtraSmall` `TextDimmed`
 - ✅ **Spacer:** `Spacer`
-- **Span**
-- **TextArea**
+- ✅ **Span:** `Span`
+- ✅ **TextArea:** `TextArea` `TextAreaOutlined`
 - ✅ **Wrapper:** `AppWrapper` `PageWrapper`
 

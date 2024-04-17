@@ -38,16 +38,17 @@ export const LightGray = `#D3D3D3`;
 export const DarkGray = `#A9A9A9`;
 
 // Theme Colors
-export const TCPrimary = `#4285F4`; // Theme Blue
-export const TCPrimaryDark = `#1967D2` // Theme Dark Blue
-export const TCSecondary = `#34A853` // Theme Green
-export const TCSecondaryDark = `#188038` // Theme Dark Green
-export const TCAccent = `#F72A25` // Theme Red
-export const TCHighlight = `#FBBC04` // Theme Yellow
-export const TCText = `#444757` // Deep Dark Blue
-export const TCDimmedText = `#747775` // Dark Grey
-export const TCBorder = `#747775` // Dard Grey
-export const TCComponentBackground = `#E9EEF6` // Light Grey
+const TCPrimary = `#4285F4`; // Theme Blue
+const TCPrimaryDark = `#1967D2` // Theme Dark Blue
+const TCSecondary = `#34A853` // Theme Green
+const TCSecondaryDark = `#188038` // Theme Dark Green
+const TCAccent = `#F72A25` // Theme Red
+const TCHighlight = `#FBBC04` // Theme Yellow
+const TCLink = `#4285F4`; // Theme Blue
+const TCText = `#444757` // Deep Dark Blue
+const TCDimmedText = `#747775` // Dark Grey
+const TCBorder = `#747775` // Dard Grey
+const TCComponentBackground = `#E9EEF6` // Light Grey
 
 // Framework Colorset (Primary: Background, Secondary: Fonts, Accent: Theme Color)
 export const PrimaryColor = Black
@@ -62,3 +63,4 @@ export const BorderColor = TCBorder
 export const ComponentBackground = TCComponentBackground
 export const TextColor = TCText
 export const DimmedTextColor = TCDimmedText
+export const LinkColor = TCLink
