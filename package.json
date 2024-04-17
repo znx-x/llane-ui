@@ -7,7 +7,7 @@
   "scripts": {
     "rebuild-unix": "rm -rf dist && tsc && node dist-lib.js",
     "rebuild-windows": "rmdir /q /s dist && tsc && node dist-lib.js",
-    "build": "tsc && node dist-icon.js",
+    "build": "tsc && node dist-lib.js",
     "prepublish": "npm run build",
     "test": "react-scripts start",
     "eject": "react-scripts eject"
