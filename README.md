@@ -45,7 +45,7 @@ This will import and build Llane UI with your application.
 
 To use Llane UI components you just need to import and render them into your JSX. For exaple:
 
-```ts
+```js
 import { Heading } from 'llane-ui';
 
 /* Your Function */
