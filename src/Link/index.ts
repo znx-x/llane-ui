@@ -10,7 +10,6 @@ interface ComponentProps {
   }
 
 export const Link = styled.a<ComponentProps>`
-    margin: auto;
     color: ${(props) => props.color};
     font-size: ${(props) => props.size || 'auto' };
     font-weight: ${(props) => props.weight || 'normal' };
@@ -21,5 +20,5 @@ export const Link = styled.a<ComponentProps>`
 `
 
 export const LinkWrapper = styled.a<ComponentProps>`
-    margin: ${(props) => props.margin || 'auto' };
+    margin: ${(props) => props.margin};
 `
