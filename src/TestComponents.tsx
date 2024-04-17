@@ -19,9 +19,18 @@ import {
   TextSmall,
   TextExtraSmall,
   TextDimmed,
+  // Button
+  Button,
   // ./Wrapper
   AppWrapper,
-  PageWrapper
+  PageWrapper,
+  ButtonAlt,
+  Spacer,
+  ButtonOutlined,
+  ButtonOutlinedAlt,
+  Divider,
+  Input,
+  InputOutlined
 } from "./";
 
 function TestComponents() {
@@ -29,12 +38,25 @@ function TestComponents() {
     <>
       <AppWrapper>
         <PageWrapper>
+
           <HeadingExtraLarge>Heading Extra Large</HeadingExtraLarge>
           <HeadingLarge>Heading Large</HeadingLarge>
           <Heading>Heading</Heading>
           <HeadingSmall>Heading Small</HeadingSmall>
           <HeadingExtraSmall>Heading Extra Small</HeadingExtraSmall>
           <HeadingTiny>Heading Tiny</HeadingTiny>
+
+          <Spacer />
+
+          <TextExtraLarge>Text Extra Large</TextExtraLarge>
+          <TextLarge>Text Large</TextLarge>
+          <Text>Text</Text>
+          <TextSmall>Text Small</TextSmall>
+          <TextExtraSmall>Text Extra Small</TextExtraSmall>
+          <TextDimmed>Text Dimmed</TextDimmed>
+
+          <Spacer />
+
           <Link href="#">Link</Link>
           <LinkWrapper href="#">
             <div>
@@ -43,6 +65,26 @@ function TestComponents() {
               </p>
             </div>
           </LinkWrapper>
+
+          <Spacer />
+
+          <Button>Button</Button>
+          <Spacer />
+          <ButtonAlt>Button Alternative</ButtonAlt>
+          <Spacer />
+          <ButtonOutlined>Button Outlined</ButtonOutlined>
+          <Spacer />
+          <ButtonOutlinedAlt>Button Outlined Alternative</ButtonOutlinedAlt>
+
+          <Spacer />
+
+          <Divider />
+
+          <Spacer />
+
+          <Input placeholder="Input component..." />
+          <Spacer />
+          <InputOutlined placeholder="Input outlined..." />
         </PageWrapper>
       </AppWrapper>
     </>

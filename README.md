@@ -52,9 +52,9 @@ import { Heading } from 'llane-ui';
 
 return(
     <>
-        <Heading>
-            This is a Llane UI Heading.
-        </Heading>
+      <Heading>
+        This is a Llane UI Heading.
+      </Heading>
     </>
 )
 ```
@@ -83,19 +83,19 @@ This process will update the `/dist` folder, creating all the new icons and a ne
 Full list of supported components. Each component might have their own custom props and I will provide detailed explanation on each one when the full documentation for the project is published.
 
 - **Box**
-- **Button**
+- ✅ **Button:** `Button` `ButtonAlt` `ButtonOutlined` `ButtonOutlinedAlt`
 - **Container**
-- **Divider**
+- ✅ **Divider:** `Divider`
 - **Dropdown**
 - **FlexContainer**
 - **Footer**
 - **GridContainer**
 - **Header**
-- **Icons**
-- **Input**
+- ✅ **Icons**
+- ✅ **Input:** `Input` `InputOutlined`
 - ✅ **Link:** `Link` `LinkWrapper`
 - ✅ **Typography:** `HeadingExtraLarge` `HeadingLarge` `Heading` `HeadingSmall` `HeadingExtraSmall` `HeadingTiny` `TextExtraLarge` `TextLarge` `Text` `TextSmall` `TextExtraSmall` `TextDimmed`
-- **Spacer**
+- ✅ **Spacer:** `Spacer`
 - **Span**
 - **TextArea**
 - ✅ **Wrapper:** `AppWrapper` `PageWrapper`

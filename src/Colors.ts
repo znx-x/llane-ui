@@ -7,6 +7,9 @@
  * with your own export.
  */
 
+// Transparent
+export const Transparent = `rgba(0, 0, 0, 0)`;
+
 // Basic Colors
 export const Black = `#000000`;
 export const White = `#FFFFFF`;
@@ -34,7 +37,28 @@ export const Gray = `#808080`;
 export const LightGray = `#D3D3D3`;
 export const DarkGray = `#A9A9A9`;
 
-// Themed Colors (Primary: Background, Secondary: Fonts, Accent: Theme Color)
+// Theme Colors
+export const TCPrimary = `#4285F4`; // Theme Blue
+export const TCPrimaryDark = `#1967D2` // Theme Dark Blue
+export const TCSecondary = `#34A853` // Theme Green
+export const TCSecondaryDark = `#188038` // Theme Dark Green
+export const TCAccent = `#F72A25` // Theme Red
+export const TCHighlight = `#FBBC04` // Theme Yellow
+export const TCText = `#444757` // Deep Dark Blue
+export const TCDimmedText = `#747775` // Dark Grey
+export const TCBorder = `#747775` // Dard Grey
+export const TCComponentBackground = `#E9EEF6` // Light Grey
+
+// Framework Colorset (Primary: Background, Secondary: Fonts, Accent: Theme Color)
 export const PrimaryColor = Black
 export const SecondaryColor = White
-export const AccentColor = Cyan
+export const AccentColor = TCAccent
+export const HighlightColor = TCHighlight
+export const ButtonColor = TCPrimary
+export const ButtonHoverColor = TCPrimaryDark
+export const ButtonAltColor = TCSecondary
+export const ButtonAltHoverColor = TCSecondaryDark
+export const BorderColor = TCBorder
+export const ComponentBackground = TCComponentBackground
+export const TextColor = TCText
+export const DimmedTextColor = TCDimmedText
