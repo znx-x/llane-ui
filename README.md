@@ -1,9 +1,21 @@
-> [!WARNING]
-> **Ongoing Development:** This is an ongoing project with heavy development underway. Not ready for usage. Contributions are welcomed and more documentation will be uploaded as the project develops.
-
 # Llane UI Library
 
+> [!WARNING]
+> **Ongoing Development:** This is an ongoing project with heavy development underway. Not ready for usage. Contributions are welcomed and more documentation will be uploaded as the project develops.
+- [Llane UI Library](#llane-ui-library)
+  - [Introduction](#introduction)
+  - [Install Llane UI](#install-llane-ui)
+  - [Build Llane UI](#build-llane-ui)
+  - [Testing Llane UI](#testing-llane-ui)
+  - [How to use it with my React App?](#how-to-use-it-with-my-react-app)
+  - [How do I build a custom icon library?](#how-do-i-build-a-custom-icon-library)
+  - [Components List (A-Z)](#components-list-a-z)
+
+## Introduction
+
 Llanne UI is an open-source project, ready-to-use React.js components library that facilitates the development of React.js frontend applications and websites, natively compatible with mobile device screens and dark/light themes. The idea of developing a standard UI framework for React.js and TypeScript comes from my own need for standardising UI components across different applications for a onsistent cross-platform UI/UX and an efficient way to update multiple frontend UIs all at once. The library is conceived in a way that desktop browser applications should be automatically compatible with mobile view, without any need for refactoring or working with different components for different screen sizes.
+
+![Alt text](./media/screenshot.png "Llane UI Components Example")
 
 ## Install Llane UI
 
@@ -15,7 +27,7 @@ npm install
 ## Build Llane UI
 
 > [!NOTE]
-> If you have already built Llane UI and wants to rebuild it, you will need to use the commands `npm run rebuild-unix` if you are on Linux or MacOs or `npm run rebuild-windows` if you are on Windows.
+> If you have already built Llane UI and wants to rebuild it, you will need to use the commands `npm run rebuild-unix` if you are on Linux or macOS or `npm run rebuild-windows` if you are on Windows.
 
 You can build Llane UI by running the following command:
 ```shell
