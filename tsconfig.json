@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "declarationDir": "./dist",
+    "declarationDir": "./dist/types",
     "module": "commonjs",
     "target": "es5",
     "jsx": "react-jsx",
