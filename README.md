@@ -35,7 +35,29 @@ This will open a test HTML page with all the available components rendered. You 
 
 ## How to use it with my React App?
 
-Coming soon.
+You can add Llane UI to your React App dependency tree by adding the following line to your `package.json` file:
+
+```json
+"llane-ui": "git+https://github.com/znx-x/llane-ui.git"
+```
+
+This will import and build Llane UI with your application.
+
+To use Llane UI components you just need to import and render them into your JSX. For exaple:
+
+```ts
+import { Heading } from 'llane-ui';
+
+/* Your Function */
+
+return(
+    <>
+        <Heading>
+            This is a Llane UI Heading.
+        </Heading>
+    </>
+)
+```
 
 ## How do I build a custom icon library?
 
