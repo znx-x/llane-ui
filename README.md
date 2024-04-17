@@ -15,7 +15,7 @@
 
 Llanne UI is an open-source project, ready-to-use React.js components library that facilitates the development of React.js frontend applications and websites, natively compatible with mobile device screens and dark/light themes. The idea of developing a standard UI framework for React.js and TypeScript comes from my own need for standardising UI components across different applications for a onsistent cross-platform UI/UX and an efficient way to update multiple frontend UIs all at once. The library is conceived in a way that desktop browser applications should be automatically compatible with mobile view, without any need for refactoring or working with different components for different screen sizes.
 
-![Alt text](./media/screenshot.png "Llane UI Components Example")
+<img src="./media/screenshot.png" alt="Alt text" style="border-radius: 10px;">
 
 ## Install Llane UI
 
