@@ -24,7 +24,20 @@ npm run build
 
 This will compile Llane UI to your `/dist` folder, which will then be used by your application to import the Llane UI components.
 
-## Build Custom Icon Library
+## Testing Llane UI
+
+You can build and run the test application by using the following command:
+```shell
+npm run test
+```
+
+This will open a test HTML page with all the available components rendered. You can use this to make modifications to the components and test them in real-time.
+
+## How to use it with my React App?
+
+Coming soon.
+
+## How do I build a custom icon library?
 
 > [!NOTE]
 > You will need to have **[Python](https://www.python.org/downloads/)** installed to build your custom icon library.
@@ -42,15 +55,6 @@ By default, LLane UI uses a pre-compiled set of **[react-feather](https://feathe
     ```
 
 This process will update the `/dist` folder, creating all the new icons and a new export structure that you can use in your project.
-
-## Testing Llane UI
-
-You can build and run the test application by using the following command:
-```shell
-npm run test
-```
-
-This will open a test HTML page with all the available components rendered. You can use this to make modifications to the components and test them in real-time.
 
 ## Components List (A-Z)
 
