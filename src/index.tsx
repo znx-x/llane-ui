@@ -4,7 +4,6 @@ import TestComponents from './TestComponents'
 
 // Imports the base CSS styling
 import './base.css'
-import { LlaneUi } from './LlaneUi'
 
 // Export Colors
 export * from './Colors'

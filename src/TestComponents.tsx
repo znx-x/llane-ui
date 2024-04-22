@@ -41,15 +41,12 @@ import {
   Header,
   HeaderSection,
   HeaderLink,
-  HeaderContainer,
   Image,
   LlaneUi,
-  TextColor,
   ThemeToggle,
   ToggleButton,
   HeaderMobile,
   HeaderDesktop,
-  ThemeToggleButton
 } from "./";
 import { Container } from "./Container";
 import LlaneLogo from "./TestingAssets/logo.png";

@@ -1,5 +1,5 @@
-import React, { useState, createContext, useContext, useMemo, ReactNode } from 'react';
-import styled, { ThemeProvider, DefaultTheme } from 'styled-components';
+import React, { useState, createContext, useContext, useMemo, ReactNode, useCallback } from 'react';
+import { ThemeProvider, DefaultTheme } from 'styled-components';
 import { ThemeToggleButton } from '../Toggle';
 
 // Define the default themes
@@ -26,9 +26,10 @@ interface LlaneUiProps {
 export const LlaneUi: React.FC<LlaneUiProps> = ({ children }) => {
     const [theme, setTheme] = useState<DefaultTheme>(defaultLightTheme);
 
-    const toggleTheme = () => {
-        setTheme(theme.mode === 'dark' ? defaultLightTheme : defaultDarkTheme);
-    };
+    const toggleTheme = useCallback(() => {
+        setTheme(prevTheme => prevTheme.mode === 'dark' ? defaultLightTheme : defaultDarkTheme);
+    }, []);
+    
 
     const providerValue = useMemo(() => ({ toggleTheme }), [toggleTheme]);
 
