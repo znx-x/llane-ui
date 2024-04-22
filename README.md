@@ -1,21 +1,16 @@
 <img src="./media/logo-layers.png" alt="Alt text" style="text-align: center; margin: auto; display: flex">
 <h1 style="text-align: center; margin: 10px;">Welcome to Llane UI</h1>
 
+Llanne UI is an open-source project, ready-to-use React.js components library that facilitates the development of React.js frontend applications and websites, natively compatible with mobile device screens and dark/light themes. The idea of developing a standard UI framework for React.js and TypeScript comes from my own need for standardising UI components across different applications for a onsistent cross-platform UI/UX and an efficient way to update multiple frontend UIs all at once. The library is conceived in a way that desktop browser applications should be automatically compatible with mobile view, without any need for refactoring or working with different components for different screen sizes.
+
 > [!WARNING]
 > **Ongoing Development:** This is an ongoing project with heavy development underway. Contributions are welcomed and more documentation will be uploaded as the project develops.
-- [Introduction](#introduction)
 - [Install Llane UI](#install-llane-ui)
 - [Build Llane UI](#build-llane-ui)
 - [Testing Llane UI](#testing-llane-ui)
 - [How to use it with my React App?](#how-to-use-it-with-my-react-app)
 - [How do I build a custom icon library?](#how-do-i-build-a-custom-icon-library)
 - [Components List (A-Z)](#components-list-a-z)
-
-
-
-## Introduction
-
-Llanne UI is an open-source project, ready-to-use React.js components library that facilitates the development of React.js frontend applications and websites, natively compatible with mobile device screens and dark/light themes. The idea of developing a standard UI framework for React.js and TypeScript comes from my own need for standardising UI components across different applications for a onsistent cross-platform UI/UX and an efficient way to update multiple frontend UIs all at once. The library is conceived in a way that desktop browser applications should be automatically compatible with mobile view, without any need for refactoring or working with different components for different screen sizes.
 
 <img src="./media/screenshot.png" alt="Alt text" style="border-radius: 10px;">
 <img src="./media/screenshot-light.png" alt="Alt text" style="border-radius: 10px;">
