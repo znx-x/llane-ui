@@ -21,6 +21,11 @@ const iconsSrcDir = path.join(__dirname, 'src/Icons/library');
 const iconsDestDir = path.join(__dirname, 'dist/Icons/library');
 copyFiles(iconsSrcDir, iconsDestDir);
 
+// Paths for test assets
+const testAssetsSrcDir = path.join(__dirname, 'src/TestingAssets');
+const testAssetsDestDir = path.join(__dirname, 'dist/TestingAssets');
+copyFiles(testAssetsSrcDir, testAssetsDestDir);
+
 // Path for CSS
 const cssSrcFile = path.join(__dirname, 'src/base.css');
 const cssDestFile = path.join(__dirname, 'dist/base.css');
