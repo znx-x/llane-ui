@@ -46,7 +46,7 @@ import {
   ThemeToggle,
   ToggleButton,
   HeaderMobile,
-  HeaderDesktop,
+  HeaderDesktop
 } from "./";
 import { Container } from "./Container";
 import LlaneLogo from "./TestingAssets/logo.png";
@@ -58,7 +58,9 @@ function TestComponents() {
         <Header sticky={true} glassEffect={true}>
           <HeaderDesktop>
             <HeaderSection alignHorizontal="left">
-              <Image src={LlaneLogo} width="48px" />
+              <LinkWrapper href="#">
+                <Image src={LlaneLogo} width="48px" />
+              </LinkWrapper>
               <Heading margin="0 1rem">
                 <b>Llane UI</b>
               </Heading>
@@ -73,7 +75,9 @@ function TestComponents() {
           </HeaderDesktop>
           <HeaderMobile>
             <HeaderSection>
-              <Image src={LlaneLogo} width="48px" />
+              <LinkWrapper href="#">
+                <Image src={LlaneLogo} width="48px" />
+              </LinkWrapper>
             </HeaderSection>
             <HeaderSection>
               <ThemeToggle />
