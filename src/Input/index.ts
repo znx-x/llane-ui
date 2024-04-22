@@ -19,6 +19,8 @@ interface ComponentProps {
   borderThickness?: string;
   fontColor?: string;
   fontSize?: string;
+  margin?: string;
+  padding?: string;
   width?: string;
 }
 
@@ -29,7 +31,8 @@ export const Input = styled.input<ComponentProps>`
   border-radius: ${(props) => props.borderRadius || BorderRadius};
   color: ${(props) => props.fontColor || TextColor};
   font-size: ${(props) => props.fontSize || InputFontSize};
-  padding: ${InputPadding};
+  padding: ${(props) => props.padding || InputPadding};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
 `;
@@ -41,7 +44,8 @@ export const InputOutlined = styled.input<ComponentProps>`
   border-radius: ${(props) => props.borderRadius || BorderRadius};
   color: ${(props) => props.fontColor || TextColor};
   font-size: ${(props) => props.fontSize || InputFontSize};
-  padding: ${InputPadding};
+  padding: ${(props) => props.padding || InputPadding};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
 `;

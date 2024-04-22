@@ -37,14 +37,54 @@ import {
   GridContainer,
   Span,
   TextArea,
-  TextAreaOutlined
+  TextAreaOutlined,
+  Header,
+  HeaderSection,
+  HeaderLink,
+  HeaderContainer,
+  Image,
+  LlaneUi,
+  TextColor,
+  ThemeToggle,
+  ToggleButton,
+  HeaderMobile,
+  HeaderDesktop,
+  ThemeToggleButton
 } from "./";
 import { Container } from "./Container";
+import LlaneLogo from "./TestingAssets/logo.png";
 
 function TestComponents() {
   return (
-    <>
+    <LlaneUi>
       <AppWrapper>
+        <Header sticky={true} glassEffect={true}>
+          <HeaderDesktop>
+            <HeaderSection alignHorizontal="left">
+              <Image src={LlaneLogo} width="48px" />
+              <Heading margin="0 1rem">
+                <b>Llane UI</b>
+              </Heading>
+              <HeaderLink href="#">Link 1</HeaderLink>
+              <HeaderLink href="#">Link 2</HeaderLink>
+            </HeaderSection>
+            <HeaderSection alignHorizontal="right">
+              <ThemeToggle />
+              <Input placeholder="Search..." width="240px" margin="0 1rem" />
+              <ButtonLink>Action Button</ButtonLink>
+            </HeaderSection>
+          </HeaderDesktop>
+          <HeaderMobile>
+            <HeaderSection>
+              <Image src={LlaneLogo} width="48px" />
+            </HeaderSection>
+            <HeaderSection>
+              <ThemeToggle />
+              <HeaderLink href="#">Link 1</HeaderLink>
+              <HeaderLink href="#">Link 2</HeaderLink>
+            </HeaderSection>
+          </HeaderMobile>
+        </Header>
         <PageWrapper>
           <Box>
             <HeadingExtraLarge>Heading Extra Large</HeadingExtraLarge>
@@ -181,9 +221,14 @@ function TestComponents() {
             <TextArea placeholder="This is a text area component..." />
             <TextAreaOutlined placeholder="This is a text area component..." />
           </BoxOutlined>
+          <Spacer />
+          <Box>
+            <HeadingLarge>Toggle Button</HeadingLarge>
+            <ToggleButton toggled={false} />
+          </Box>
         </PageWrapper>
       </AppWrapper>
-    </>
+    </LlaneUi>
   );
 }
 

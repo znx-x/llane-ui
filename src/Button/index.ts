@@ -24,6 +24,7 @@ interface ComponentProps {
   borderColor?: string;
   borderRadius?: string;
   fontColor?: string;
+  margin?: string;
   padding?: string;
   width?: string;
 }
@@ -36,6 +37,7 @@ export const Button = styled.button<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   &:hover {
@@ -51,6 +53,7 @@ export const ButtonAlt = styled.button<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   &:hover {
@@ -67,6 +70,7 @@ export const ButtonOutlined = styled.button<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   &:hover {
@@ -84,6 +88,7 @@ export const ButtonOutlinedAlt = styled.button<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   &:hover {
@@ -100,6 +105,7 @@ export const ButtonLink = styled.a<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonLinkPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   text-decoration: none;
@@ -118,6 +124,7 @@ export const ButtonLinkAlt = styled.a<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonLinkPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   text-decoration: none;
@@ -137,6 +144,7 @@ export const ButtonLinkOutlined = styled.a<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonLinkPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   text-decoration: none;
@@ -157,6 +165,7 @@ export const ButtonLinkOutlinedAlt = styled.a<ComponentProps>`
   cursor: ${ButtonCursor};
   padding: ${(props) => props.padding || ButtonLinkPadding};
   font-weight: ${ButtonFontWeight};
+  margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width || 'auto'};
   max-width: ${(props) => props.width || 'auto'};
   text-decoration: none;

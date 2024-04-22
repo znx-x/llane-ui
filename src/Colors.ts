@@ -1,3 +1,4 @@
+import { DefaultTheme } from 'styled-components';
 /*
  * Exports all the colors used by Llane UI
  *
@@ -37,30 +38,26 @@ export const Gray = `#808080`;
 export const LightGray = `#D3D3D3`;
 export const DarkGray = `#A9A9A9`;
 
-// Theme Colors
-const TCPrimary = `#4285F4`; // Theme Blue
-const TCPrimaryDark = `#1967D2` // Theme Dark Blue
-const TCSecondary = `#34A853` // Theme Green
-const TCSecondaryDark = `#188038` // Theme Dark Green
-const TCAccent = `#F72A25` // Theme Red
-const TCHighlight = `#FBBC04` // Theme Yellow
-const TCLink = `#4285F4`; // Theme Blue
-const TCText = `#444757` // Deep Dark Blue
-const TCDimmedText = `#747775` // Dark Grey
-const TCBorder = `#747775` // Dard Grey
-const TCComponentBackground = `#E9EEF6` // Light Grey
+// Dark and Light Theme Colors
 
-// Framework Colorset (Primary: Background, Secondary: Fonts, Accent: Theme Color)
-export const PrimaryColor = Black
-export const SecondaryColor = White
-export const AccentColor = TCAccent
-export const HighlightColor = TCHighlight
-export const ButtonColor = TCPrimary
-export const ButtonHoverColor = TCPrimaryDark
-export const ButtonAltColor = TCSecondary
-export const ButtonAltHoverColor = TCSecondaryDark
-export const BorderColor = TCBorder
-export const ComponentBackground = TCComponentBackground
-export const TextColor = TCText
-export const DimmedTextColor = TCDimmedText
-export const LinkColor = TCLink
+const getThemeColor = (lightColor: string, darkColor: string) => {
+    return ({ theme }: { theme: DefaultTheme }) => theme.mode === 'light' ? darkColor : lightColor;
+  };
+
+
+export const AppBackground = getThemeColor('#202124', '#FFFFFF'); // Dark Gray | White
+export const TextColor = getThemeColor('#FFFFFF', '#444757'); // White | Deep Dark Blue
+export const PrimaryColor = getThemeColor('#4285F4', '#4285F4'); // Matte Blue
+export const SecondaryColor = getThemeColor('#303134', '#34A853'); // Matte Green
+export const AccentColor = getThemeColor('#F72A25', '#F72A25'); // Matte Red
+export const HighlightColor = getThemeColor('#FBBC04', '#FBBC04'); // Matte Yellow
+export const ButtonColor = getThemeColor('#4285F4', '#4285F4'); // Matte Blue
+export const ButtonHoverColor = getThemeColor('#1967D2', '#1967D2'); // Dark Matte Blue
+export const ButtonAltColor = getThemeColor('#34A853', '#34A853'); //  Matte Green
+export const ButtonAltHoverColor = getThemeColor('#188038', '#188038'); // Dark Matte Green
+export const BorderColor = getThemeColor('#747775', '#747775'); // Medium-Light Gray
+export const ComponentBackground = getThemeColor('#2C2C2C', '#E9EEF6'); // Light Gray | Light Pale Blue
+export const DimmedTextColor = getThemeColor('#747775', '#747775'); // Medium-Light Gray
+export const LinkColor = getThemeColor('#4285F4', '#4285F4'); // Matte Blue
+export const HeaderBackground = getThemeColor('rgba(44, 44, 44, 0.5)', 'rgba(233, 238, 246, 0.5)'); // Semi-transparent Dark Gray | Semi-transparent Light Blue
+export const HeaderLinkHoverBackground = getThemeColor('rgba(44, 44, 44, 1)', 'rgba(233, 238, 246, 1)'); // Dark Gray | Light Blue

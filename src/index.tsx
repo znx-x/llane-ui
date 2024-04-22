@@ -4,6 +4,7 @@ import TestComponents from './TestComponents'
 
 // Imports the base CSS styling
 import './base.css'
+import { LlaneUi } from './LlaneUi'
 
 // Export Colors
 export * from './Colors'
@@ -17,14 +18,16 @@ export * from './FlexContainer'
 export * from './Footer'
 export * from './GridContainer'
 export * from './Header'
+export * from './Image'
 export * from './Input'
 export * from './Icons'
-export * from './Header'
 export * from './Input'
+export * from './LlaneUi'
 export * from './Link'
 export * from './Spacer'
 export * from './Span'
 export * from './TextArea'
+export * from './Toggle'
 export * from './Typography'
 export * from './Wrapper'
 

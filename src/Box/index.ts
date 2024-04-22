@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BorderColor, ComponentBackground, Transparent } from "../Colors";
+import { BorderColor, ComponentBackground, TextColor, Transparent } from "../Colors";
 import {
   BorderThickness,
   BoxBorderRadius,
@@ -76,6 +76,7 @@ export const Box = styled.div<ComponentProps>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   overflow: ${(props) => props.overflow};
+  color: ${TextColor};
   &:hover {
     background: ${(props) => props.backgroundHover};
   }
