@@ -10,6 +10,7 @@
     "build": "tsc && node dist-lib.js",
     "prepublish": "npm run build",
     "test": "react-scripts start",
+    "deploy-test-app": "react-scripts build",
     "eject": "react-scripts eject"
   },
   "dependencies": {
