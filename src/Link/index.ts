@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { LinkColor, TextColor } from '../Colors';
+import { LinkColor } from '../Colors';
 
 interface ComponentProps {
     size?: string;

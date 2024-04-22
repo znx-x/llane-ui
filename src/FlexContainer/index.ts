@@ -1,10 +1,7 @@
 import styled from "styled-components";
-import { BorderColor, ComponentBackground, Transparent } from "../Colors";
+import { Transparent } from "../Colors";
 import {
   BorderThickness,
-  BoxBorderRadius,
-  BoxPadding,
-  DefaultGap
 } from "../BaseThemeStyle";
 
 interface ComponentProps {

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import {
-  Black,
   ButtonAltColor,
   ButtonAltHoverColor,
   ButtonColor,

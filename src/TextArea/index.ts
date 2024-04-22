@@ -1,9 +1,6 @@
 import styled from "styled-components";
 import {
-  BorderRadius,
   BorderThickness,
-  InputFontSize,
-  InputPadding,
   TextAreaBorderRadius,
   TextAreaFontSize,
   TextAreaPadding
