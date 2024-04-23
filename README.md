@@ -31,9 +31,6 @@ npm install
 
 ## Build Llane UI
 
-> [!NOTE]
-> If you have already built Llane UI and wants to rebuild it, you will need to use the commands `npm run rebuild-unix` if you are on Linux or macOS or `npm run rebuild-windows` if you are on Windows.
-
 You can build Llane UI by running the following command:
 ```shell
 npm run build
