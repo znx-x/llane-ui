@@ -53,7 +53,7 @@ import LlaneLogo from "./TestingAssets/logo.png";
 
 function TestComponents() {
   return (
-    <LlaneUi>
+    <LlaneUi initialTheme="dark">
       <AppWrapper>
         <Header sticky={true} glassEffect={true}>
           <HeaderDesktop>
