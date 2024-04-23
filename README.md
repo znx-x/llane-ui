@@ -3,14 +3,18 @@
 
 Llanne UI is an open-source project, ready-to-use React.js components library that facilitates the development of React.js frontend applications and websites, natively compatible with mobile device screens and dark/light themes. The idea of developing a standard UI framework for React.js and TypeScript comes from my own need for standardising UI components across different applications for a onsistent cross-platform UI/UX and an efficient way to update multiple frontend UIs all at once. The library is conceived in a way that desktop browser applications should be automatically compatible with mobile view, without any need for refactoring or working with different components for different screen sizes.
 
-**Live Preview on Netlify:** https://main--capable-dragon-152070.netlify.app/
+**Live Components Demo on Netlify:** https://main--capable-dragon-152070.netlify.app/
 
 > [!WARNING]
 > **Ongoing Development:** This is an ongoing project with heavy development underway. Contributions are welcomed and more documentation will be uploaded as the project develops.
 - [Install Llane UI](#install-llane-ui)
 - [Build Llane UI](#build-llane-ui)
 - [Testing Llane UI](#testing-llane-ui)
+- [Building Test Application](#building-test-application)
 - [How to use it with my React App?](#how-to-use-it-with-my-react-app)
+  - [Regular Usage With NPM](#regular-usage-with-npm)
+  - [Fetch From GitHub (Unstable)](#fetch-from-github-unstable)
+  - [Using Llane UI](#using-llane-ui)
 - [How do I build a custom icon library?](#how-do-i-build-a-custom-icon-library)
 - [Components List (A-Z)](#components-list-a-z)
 
@@ -38,29 +42,48 @@ This will compile Llane UI to your `/dist` folder, which will then be used by yo
 
 ## Testing Llane UI
 
-You can build and run the test application by using the following command:
+You can run the test TSX page by using the following command:
 ```shell
 npm run test
 ```
 
-This will open a test HTML page with all the available components rendered. You can use this to make modifications to the components and test them in real-time.
+This will open a test page in your `localhost` with all the available components rendered. You can use this to make modifications to the components and test them in real-time.
+
+## Building Test Application
+
+You can also crete an optimised build of the test application - even though I'm not sure why you would 🤷 - by running the following command:
+```shell
+npm run deploy-test-app
+```
+
+This should create an optimised build in your `/build` folder.
 
 ## How to use it with my React App?
 
-You can add Llane UI to your React App dependency tree by adding the following line to your `package.json` file:
+### Regular Usage With NPM
+
+You can use `npm` to install the latest stable release of `llane-ui` dependency in your React App:
+```shell
+npm install llane-ui --save-dev
+```
+
+### Fetch From GitHub (Unstable)
+You can add the latest unstable version of Llane UI to your React App dependency tree by adding the following line to your `package.json` file (under dependencies):
 
 ```json
 "llane-ui": "git+https://github.com/znx-x/llane-ui.git"
 ```
 
-This will import and build Llane UI with your application.
+This will import and build Llane UI with your application. **Only use this method in non-production applications and be aware of the risks (including breaking risks) inherent from these unstable versions.**
 
-To use Llane UI components you just need to import and render them into your JSX. For exaple:
+### Using Llane UI
+
+After installing it, you can use Llane UI components by importing and declaring them in your `JSX` or `TSX`. For exaple:
 
 ```js
 import { Heading } from 'llane-ui';
 
-/* Your Function */
+/* Your Code */
 
 return(
     <>
