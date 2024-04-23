@@ -122,19 +122,20 @@ Full list of supported components. Each component might have their own custom pr
 - ✅ **Button:** `Button` `ButtonAlt` `ButtonOutlined` `ButtonOutlinedAlt`
 - ✅ **Container:** `Container`
 - ✅ **Divider:** `Divider`
-- **Dropdown**
+- 🔴 **Dropdown**
 - ✅ **FlexContainer:** `FlexContainer`
-- **Footer**
+- 🔴 **Footer**
 - ✅ **GridContainer:** `GridContainer`
-- 🟡**Header:** `Header` `HeaderContainer` `HeaderSection` `HeaderLink`
+- 🟡 **Header:** `Header` `HeaderContainer` `HeaderSection` `HeaderLink`
 - ✅ **Icons**
 - ✅ **Image:** `Image`
 - ✅ **Input:** `Input` `InputOutlined`
 - ✅ **Link:** `Link` `LinkWrapper`
+- 🔴 **Modal**
 - ✅ **Typography:** `HeadingExtraLarge` `HeadingLarge` `Heading` `HeadingSmall` `HeadingExtraSmall` `HeadingTiny` `TextExtraLarge` `TextLarge` `Text` `TextSmall` `TextExtraSmall` `TextDimmed`
 - ✅ **Spacer:** `Spacer` `Sp`
 - ✅ **Span:** `Span`
 - ✅ **TextArea:** `TextArea` `TextAreaOutlined`
-- ✅ **Toggle:** `ThemeToggleButton` `ToggleButton`
+- ✅ **Toggle:** `ThemeToggle` `ToggleButton`
 - ✅ **Wrapper:** `AppWrapper` `PageWrapper`
 
