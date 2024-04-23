@@ -11,3 +11,11 @@ export const Spacer = styled.div<ComponentProps>`
     margin-left: 0;
     margin-right: 0;
 `
+
+export function Sp() {
+    return(
+        <>
+        <span>&nbsp;</span>
+        </>
+    )
+}

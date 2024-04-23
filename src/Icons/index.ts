@@ -290,1440 +290,1728 @@ import { ReactComponent as ZoomOut } from './library/zoom-out.svg';
 
 interface IconProps {
   size?: string;
+  margin?: string;
 }
 
 export const IcoActivity = styled(Activity)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAirplay = styled(Airplay)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAlertCircle = styled(AlertCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAlertOctagon = styled(AlertOctagon)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAlertTriangle = styled(AlertTriangle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAlignCenter = styled(AlignCenter)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAlignJustify = styled(AlignJustify)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAlignLeft = styled(AlignLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAlignRight = styled(AlignRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAnchor = styled(Anchor)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAperture = styled(Aperture)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArchive = styled(Archive)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowDownCircle = styled(ArrowDownCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowDownLeft = styled(ArrowDownLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowDownRight = styled(ArrowDownRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowDown = styled(ArrowDown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowLeftCircle = styled(ArrowLeftCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowLeft = styled(ArrowLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowRightCircle = styled(ArrowRightCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowRight = styled(ArrowRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowUpCircle = styled(ArrowUpCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowUpLeft = styled(ArrowUpLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowUpRight = styled(ArrowUpRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoArrowUp = styled(ArrowUp)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAtSign = styled(AtSign)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoAward = styled(Award)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBarChart2 = styled(BarChart2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBarChart = styled(BarChart)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBatteryCharging = styled(BatteryCharging)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBattery = styled(Battery)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBellOff = styled(BellOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBell = styled(Bell)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBluetooth = styled(Bluetooth)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBold = styled(Bold)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBookOpen = styled(BookOpen)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBook = styled(Book)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBookmark = styled(Bookmark)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBox = styled(Box)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoBriefcase = styled(Briefcase)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCalendar = styled(Calendar)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCameraOff = styled(CameraOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCamera = styled(Camera)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCast = styled(Cast)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCheckCircle = styled(CheckCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCheckSquare = styled(CheckSquare)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCheck = styled(Check)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronDown = styled(ChevronDown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronLeft = styled(ChevronLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronRight = styled(ChevronRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronUp = styled(ChevronUp)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronsDown = styled(ChevronsDown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronsLeft = styled(ChevronsLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronsRight = styled(ChevronsRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChevronsUp = styled(ChevronsUp)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoChrome = styled(Chrome)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCircle = styled(Circle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoClipboard = styled(Clipboard)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoClock = styled(Clock)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCloudDrizzle = styled(CloudDrizzle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCloudLightning = styled(CloudLightning)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCloudOff = styled(CloudOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCloudRain = styled(CloudRain)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCloudSnow = styled(CloudSnow)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCloud = styled(Cloud)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCode = styled(Code)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCodepen = styled(Codepen)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCodesandbox = styled(Codesandbox)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCoffee = styled(Coffee)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoColumns = styled(Columns)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCommand = styled(Command)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCompass = styled(Compass)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCopy = styled(Copy)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerDownLeft = styled(CornerDownLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerDownRight = styled(CornerDownRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerLeftDown = styled(CornerLeftDown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerLeftUp = styled(CornerLeftUp)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerRightDown = styled(CornerRightDown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerRightUp = styled(CornerRightUp)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerUpLeft = styled(CornerUpLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCornerUpRight = styled(CornerUpRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCpu = styled(Cpu)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCreditCard = styled(CreditCard)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCrop = styled(Crop)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoCrosshair = styled(Crosshair)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDatabase = styled(Database)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDelete = styled(Delete)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDisc = styled(Disc)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDivideCircle = styled(DivideCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDivideSquare = styled(DivideSquare)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDivide = styled(Divide)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDollarSign = styled(DollarSign)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDownloadCloud = styled(DownloadCloud)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDownload = styled(Download)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDribbble = styled(Dribbble)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoDroplet = styled(Droplet)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoEdit2 = styled(Edit2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoEdit3 = styled(Edit3)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoEdit = styled(Edit)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoExternalLink = styled(ExternalLink)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoEyeOff = styled(EyeOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoEye = styled(Eye)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFacebook = styled(Facebook)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFastForward = styled(FastForward)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFeather = styled(Feather)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFigma = styled(Figma)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFileMinus = styled(FileMinus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFilePlus = styled(FilePlus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFileText = styled(FileText)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFile = styled(File)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFilm = styled(Film)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFilter = styled(Filter)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFlag = styled(Flag)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFolderMinus = styled(FolderMinus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFolderPlus = styled(FolderPlus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFolder = styled(Folder)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFramer = styled(Framer)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoFrown = styled(Frown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGift = styled(Gift)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGitBranch = styled(GitBranch)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGitCommit = styled(GitCommit)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGitMerge = styled(GitMerge)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGitPullRequest = styled(GitPullRequest)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGithub = styled(Github)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGitlab = styled(Gitlab)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGlobe = styled(Globe)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoGrid = styled(Grid)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoHardDrive = styled(HardDrive)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoHash = styled(Hash)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoHeadphones = styled(Headphones)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoHeart = styled(Heart)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoHelpCircle = styled(HelpCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoHexagon = styled(Hexagon)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoHome = styled(Home)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoImage = styled(Image)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoInbox = styled(Inbox)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoInfo = styled(Info)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoInstagram = styled(Instagram)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoItalic = styled(Italic)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoKey = styled(Key)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLayers = styled(Layers)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLayout = styled(Layout)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLifeBuoy = styled(LifeBuoy)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLink2 = styled(Link2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLink = styled(Link)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLinkedin = styled(Linkedin)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoList = styled(List)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLoader = styled(Loader)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLock = styled(Lock)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLogIn = styled(LogIn)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoLogOut = styled(LogOut)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMail = styled(Mail)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMapPin = styled(MapPin)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMap = styled(Map)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMaximize2 = styled(Maximize2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMaximize = styled(Maximize)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMeh = styled(Meh)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMenu = styled(Menu)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMessageCircle = styled(MessageCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMessageSquare = styled(MessageSquare)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMicOff = styled(MicOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMic = styled(Mic)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMinimize2 = styled(Minimize2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMinimize = styled(Minimize)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMinusCircle = styled(MinusCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMinusSquare = styled(MinusSquare)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMinus = styled(Minus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMonitor = styled(Monitor)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMoon = styled(Moon)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMoreHorizontal = styled(MoreHorizontal)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMoreVertical = styled(MoreVertical)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMousePointer = styled(MousePointer)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMove = styled(Move)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoMusic = styled(Music)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoNavigation2 = styled(Navigation2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoNavigation = styled(Navigation)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoOctagon = styled(Octagon)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPackage = styled(Package)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPaperclip = styled(Paperclip)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPauseCircle = styled(PauseCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPause = styled(Pause)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPenTool = styled(PenTool)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPercent = styled(Percent)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPhoneCall = styled(PhoneCall)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPhoneForwarded = styled(PhoneForwarded)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPhoneIncoming = styled(PhoneIncoming)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPhoneMissed = styled(PhoneMissed)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPhoneOff = styled(PhoneOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPhoneOutgoing = styled(PhoneOutgoing)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPhone = styled(Phone)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPieChart = styled(PieChart)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPlayCircle = styled(PlayCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPlay = styled(Play)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPlusCircle = styled(PlusCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPlusSquare = styled(PlusSquare)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPlus = styled(Plus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPocket = styled(Pocket)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPower = styled(Power)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoPrinter = styled(Printer)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRadio = styled(Radio)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRefreshCcw = styled(RefreshCcw)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRefreshCw = styled(RefreshCw)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRepeat = styled(Repeat)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRewind = styled(Rewind)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRotateCcw = styled(RotateCcw)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRotateCw = styled(RotateCw)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoRss = styled(Rss)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSave = styled(Save)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoScissors = styled(Scissors)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSearch = styled(Search)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSend = styled(Send)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoServer = styled(Server)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSettings = styled(Settings)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoShare2 = styled(Share2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoShare = styled(Share)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoShieldOff = styled(ShieldOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoShield = styled(Shield)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoShoppingBag = styled(ShoppingBag)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoShoppingCart = styled(ShoppingCart)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoShuffle = styled(Shuffle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSidebar = styled(Sidebar)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSkipBack = styled(SkipBack)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSkipForward = styled(SkipForward)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSlack = styled(Slack)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSlash = styled(Slash)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSliders = styled(Sliders)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSmartphone = styled(Smartphone)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSmile = styled(Smile)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSpeaker = styled(Speaker)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSquare = styled(Square)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoStar = styled(Star)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoStopCircle = styled(StopCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSun = styled(Sun)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSunrise = styled(Sunrise)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoSunset = styled(Sunset)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTable = styled(Table)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTablet = styled(Tablet)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTag = styled(Tag)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTarget = styled(Target)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTerminal = styled(Terminal)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoThermometer = styled(Thermometer)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoThumbsDown = styled(ThumbsDown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoThumbsUp = styled(ThumbsUp)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoToggleLeft = styled(ToggleLeft)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoToggleRight = styled(ToggleRight)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTool = styled(Tool)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTrash2 = styled(Trash2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTrash = styled(Trash)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTrello = styled(Trello)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTrendingDown = styled(TrendingDown)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTrendingUp = styled(TrendingUp)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTriangle = styled(Triangle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTruck = styled(Truck)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTv = styled(Tv)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTwitch = styled(Twitch)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoTwitter = styled(Twitter)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoType = styled(Type)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUmbrella = styled(Umbrella)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUnderline = styled(Underline)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUnlock = styled(Unlock)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUploadCloud = styled(UploadCloud)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUpload = styled(Upload)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUserCheck = styled(UserCheck)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUserMinus = styled(UserMinus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUserPlus = styled(UserPlus)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUserX = styled(UserX)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUser = styled(User)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoUsers = styled(Users)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoVideoOff = styled(VideoOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoVideo = styled(Video)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoVoicemail = styled(Voicemail)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoVolume1 = styled(Volume1)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoVolume2 = styled(Volume2)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoVolumeX = styled(VolumeX)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoVolume = styled(Volume)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoWatch = styled(Watch)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoWifiOff = styled(WifiOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoWifi = styled(Wifi)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoWind = styled(Wind)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoXCircle = styled(XCircle)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoXOctagon = styled(XOctagon)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoXSquare = styled(XSquare)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoX = styled(X)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoYoutube = styled(Youtube)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoZapOff = styled(ZapOff)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoZap = styled(Zap)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoZoomIn = styled(ZoomIn)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 
 export const IcoZoomOut = styled(ZoomOut)<IconProps>`
   width: ${(props) => props.size || '24px'};
   height: ${(props) => props.size || '24px'};
+  margin: ${(props) => props.margin || '1rem'};
 `;
 

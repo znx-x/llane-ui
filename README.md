@@ -108,7 +108,7 @@ Full list of supported components. Each component might have their own custom pr
 - ✅ **Input:** `Input` `InputOutlined`
 - ✅ **Link:** `Link` `LinkWrapper`
 - ✅ **Typography:** `HeadingExtraLarge` `HeadingLarge` `Heading` `HeadingSmall` `HeadingExtraSmall` `HeadingTiny` `TextExtraLarge` `TextLarge` `Text` `TextSmall` `TextExtraSmall` `TextDimmed`
-- ✅ **Spacer:** `Spacer`
+- ✅ **Spacer:** `Spacer` `Sp`
 - ✅ **Span:** `Span`
 - ✅ **TextArea:** `TextArea` `TextAreaOutlined`
 - ✅ **Toggle:** `ThemeToggleButton` `ToggleButton`

@@ -116,7 +116,6 @@ export const Header = styled.div<ComponentProps>`
 
 export const HeaderDesktop = styled.div<ComponentProps>`
   display: none;
-
   @media (min-width: calc(${(props) =>
       props.mobileBreakingPoint || HeaderMobileBreakingPoint} + 1px)) {
     display: flex;
@@ -133,7 +132,6 @@ export const HeaderMobile = styled.div<ComponentProps>`
   justify-content: space-between;
   height: 100%;
   gap: ${(props) => props.gap || DefaultGap};
-
   @media (min-width: calc(${(props) =>
       props.mobileBreakingPoint || HeaderMobileBreakingPoint} + 1px)) {
     display: none;
@@ -158,6 +156,7 @@ export const HeaderSection = styled.div<ComponentProps>`
     translateAlignment(props.alignHorizontal, "horizontal", "center")};
   height: 100%;
   padding: ${HeaderSectionPadding};
+  margin: ${(props) => props.margin || '0'};
 `;
 
 export const HeaderLink = styled.a<ComponentProps>`

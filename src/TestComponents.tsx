@@ -2,6 +2,7 @@
  * Tests all the available components by rendering them on a React.js test page,
  * sequentially. You can run the test page using 'npm run start' in your console.
  */
+
 import {
   Link,
   LinkWrapper,
