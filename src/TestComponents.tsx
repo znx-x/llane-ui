@@ -76,12 +76,14 @@ function TestComponents() {
               <Heading margin="0 1rem">
                 <b>Llane UI</b>
               </Heading>
+              {/* NOT READY YET
               <HamburgerMenu>
                 <HamburgerMenuLink href='#'>Link 1</HamburgerMenuLink>
                 <HamburgerMenuDropdown>
                   <HamburgerMenuLink href='#'>Link 2</HamburgerMenuLink>
                 </HamburgerMenuDropdown>
               </HamburgerMenu>
+              */}
               <HeaderLink href="#">Link 1</HeaderLink>
               <HeaderLink href="#">Link 2</HeaderLink>
             </HeaderSection>
