@@ -90,6 +90,7 @@ export const Header = styled.div<ComponentProps>`
   z-index: 999;
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
   justify-content: space-between;
   position: ${(props) => (props.sticky ? "sticky" : "static")};
   padding: ${(props) => props.padding || HeaderPadding};

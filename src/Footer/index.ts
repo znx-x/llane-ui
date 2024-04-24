@@ -86,6 +86,7 @@ export const Footer = styled.div<ComponentProps>`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-sizing: border-box;
   position: ${(props) => (props.sticky ? "sticky" : "static")};
   padding: ${(props) => props.padding || FooterPadding};
   bottom: ${(props) =>
