@@ -57,7 +57,10 @@ import {
   IcoAlignJustify,
   AppNavBarSection,
   FooterDesktop,
-  FooterMobile
+  FooterMobile,
+  HamburgerMenu,
+  HamburgerMenuLink,
+  HamburgerMenuDropdown
 } from "./";
 import { Container } from "./Container";
 import LlaneLogo from "./TestingAssets/logo.png";
@@ -100,6 +103,13 @@ function TestComponents() {
             </HeaderSection>
             <HeaderSection>
               <ThemeToggle />
+
+              <HamburgerMenu>
+                <HamburgerMenuLink href='#'>Link 1</HamburgerMenuLink>
+                <HamburgerMenuDropdown>
+                  <HamburgerMenuLink href='#'>Link 2</HamburgerMenuLink>
+                </HamburgerMenuDropdown>
+              </HamburgerMenu>
               <HeaderLink href="#">Link 1</HeaderLink>
               <HeaderLink href="#">Link 2</HeaderLink>
             </HeaderSection>
