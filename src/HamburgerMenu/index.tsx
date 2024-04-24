@@ -25,6 +25,7 @@ export const HamburgerMenuLink = styled.a<ComponentProps>`
   color: ${props => props.color || TextColor};
   text-decoration: none;
   width: 100%;  // Ensure it takes full width
+  cursor: pointer;
   &:hover {
     background-color: ${props => props.backgroundHover || HamburgerMenuLinkHoverBackground};
   }
@@ -32,8 +33,8 @@ export const HamburgerMenuLink = styled.a<ComponentProps>`
 
 const DropdownContent = styled.div<{ isOpen: boolean }>`
   display: ${props => props.isOpen ? 'block' : 'none'};
-  position: absolute;
-  background-color: #f9f9f9;
+  // position: absolute;
+  // background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -49,10 +50,10 @@ export const HamburgerMenuDropdown: React.FC<HamburgerMenuDropdownProps> = ({ ch
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div>
+    <>
       <HamburgerMenuLink as="div" onClick={() => setOpen(!isOpen)}>Dropdown</HamburgerMenuLink>
       <DropdownContent isOpen={isOpen}>{children}</DropdownContent>
-    </div>
+    </>
   );
 };
 
@@ -64,12 +65,16 @@ const MenuContainer = styled.div<ComponentProps>`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: relative;
+  position: absolute;
+  right: 0;
   width: 100%;
+  min-width: 150px;
   background: ${props => props.background || ComponentBackground};
   padding: ${props => props.padding || HamburgerMenuContainerPadding};
   border-radius: ${props => props.borderRadius || HamburgerMenuContainerBorderRadius};
   border: ${props => props.borderThickness || HamburgerMenuContainerBorderThickness} solid ${props => props.borderColor || BorderColor};
+  overflow-x: hidden;
+  overflow-y: auto;
 `;
 
 const MenuToggle = styled.div`
