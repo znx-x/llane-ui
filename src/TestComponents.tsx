@@ -47,7 +47,17 @@ import {
   ThemeToggle,
   ToggleButton,
   HeaderMobile,
-  HeaderDesktop
+  HeaderDesktop,
+  Footer,
+  FooterSection,
+  AppNavBar,
+  IcoActivity,
+  IcoAirplay,
+  IcoAlertOctagon,
+  IcoAlignJustify,
+  AppNavBarSection,
+  FooterDesktop,
+  FooterMobile
 } from "./";
 import { Container } from "./Container";
 import LlaneLogo from "./TestingAssets/logo.png";
@@ -87,6 +97,7 @@ function TestComponents() {
             </HeaderSection>
           </HeaderMobile>
         </Header>
+
         <PageWrapper>
           <Box>
             <HeadingExtraLarge>Heading Extra Large</HeadingExtraLarge>
@@ -229,6 +240,74 @@ function TestComponents() {
             <ToggleButton toggled={false} />
           </Box>
         </PageWrapper>
+
+        <AppNavBar sticky={true} glassEffect={true}>
+          <AppNavBarSection>
+            <IcoActivity />
+          </AppNavBarSection>
+          <AppNavBarSection>
+            <IcoAirplay />
+          </AppNavBarSection>
+          <AppNavBarSection>
+            <IcoAlertOctagon />
+          </AppNavBarSection>
+          <AppNavBarSection>
+            <IcoAlignJustify />
+          </AppNavBarSection>
+        </AppNavBar>
+
+        <FooterDesktop>
+          <Footer>
+            <FooterSection>
+              <LinkWrapper href="#">
+                <Image src={LlaneLogo} width="48px" />
+              </LinkWrapper>
+              <Spacer gap="0.5rem" />
+              <Text>
+                <b>Created with Llane UI</b>
+              </Text>
+            </FooterSection>
+            <FooterSection>
+              <Heading>Section 1</Heading>
+              <Spacer gap="0.5rem" />
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+            </FooterSection>
+            <FooterSection>
+              <Heading>Section 2</Heading>
+              <Spacer gap="0.5rem" />
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+            </FooterSection>
+            <FooterSection>
+              <Heading>Section 3</Heading>
+              <Spacer gap="0.5rem" />
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+              <Link href="#">Footer Link</Link>
+            </FooterSection>
+          </Footer>
+        </FooterDesktop>
+        <FooterMobile>
+          <Footer>
+          <FooterSection>
+            <LinkWrapper href="#">
+              <Image src={LlaneLogo} width="48px" />
+            </LinkWrapper>
+            <Spacer gap="0.5rem" />
+            <HeadingSmall>Special Mobile Footer</HeadingSmall>
+            <Spacer gap='0.2rem' />
+            <Text weight="light">
+              Created with Llane UI
+            </Text>
+          </FooterSection>
+          </Footer>
+        </FooterMobile>
       </AppWrapper>
     </LlaneUi>
   );

@@ -19,3 +19,11 @@ export function Sp() {
         </>
     )
 }
+
+export function Break() {
+    return(
+        <>
+        <br />
+        </>
+    )
+}

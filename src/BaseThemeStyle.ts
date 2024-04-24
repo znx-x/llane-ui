@@ -3,6 +3,19 @@ export const BorderRadius = `50px`;
 export const DefaultGap = `1rem`;
 export const BorderThickness = `1px`;
 
+// App Navigation Bar
+export const AppNavBarHeight = `72px`;
+export const AppNavBarBackdropFilter = `blur(10px)`;
+export const AppNavBarBoxShadow = `0 2px 8px rgba(0, 0, 0, 0.1)`;
+export const AppNavBarBorderRadius = `0`;
+export const AppNavBarMargin = `0`;
+export const AppNavBarPadding = `0`;
+export const AppNavBarFloatingMargin = `1rem`;
+export const AppNavBarFloatingBorderRadius = `10px`;
+export const AppNavBarSectionPadding = `0`;
+export const AppNavBarMobileBreakingPoint = `769px`;
+export const AppNavBarDefaultPosition = `bottom`;
+
 // App Wrapper
 export const AppWrapperAlignHorizontal = `center`;
 export const AppWrapperAlignVertical = `top`;
@@ -25,6 +38,18 @@ export const ButtonLinkPadding = `12px 17px`;
 
 // Divider
 export const DividerLineThickness = `1px`;
+
+// Footer
+export const FooterHeight = `auto`;
+export const FooterBackdropFilter = `blur(10px)`;
+export const FooterBoxShadow = `0 2px 8px rgba(0, 0, 0, 0.1)`;
+export const FooterBorderRadius = `0`;
+export const FooterMargin = `0`;
+export const FooterPadding = `50px 1rem`;
+export const FooterFloatingMargin = `1rem`;
+export const FooterFloatingBorderRadius = `10px`;
+export const FooterSectionPadding = `auto`;
+export const FooterMobileBreakingPoint = `769px`;
 
 // Header
 export const HeaderHeight = `72px`;

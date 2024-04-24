@@ -2,22 +2,25 @@ import styled from "styled-components";
 import {
   TextColor,
   Transparent,
-  FooterBackground,
+  AppNavBarBackground,
+  AppNavBarSectionHoverBackground,
+  AppNavBarSectionActiveBackground
 } from "../Colors";
 import {
-  FooterHeight,
-  FooterBoxShadow,
-  FooterBackdropFilter,
-  FooterBorderRadius,
-  FooterMargin,
-  FooterFloatingMargin,
-  FooterFloatingBorderRadius,
+  AppNavBarHeight,
+  AppNavBarBoxShadow,
+  AppNavBarBackdropFilter,
+  AppNavBarBorderRadius,
+  AppNavBarMargin,
+  AppNavBarFloatingMargin,
+  AppNavBarFloatingBorderRadius,
   BorderThickness,
   PageWrapperDefaultWidth,
   DefaultGap,
-  FooterPadding,
-  FooterSectionPadding,
-  FooterMobileBreakingPoint
+  AppNavBarPadding,
+  AppNavBarSectionPadding,
+  AppNavBarMobileBreakingPoint,
+  AppNavBarDefaultPosition
 } from "../BaseThemeStyle";
 
 interface ComponentProps {
@@ -43,6 +46,7 @@ interface ComponentProps {
   gap?: string;
   padding?: string;
   mobileBreakingPoint?: string;
+  position?: string;
   alignHorizontal?:
     | "left"
     | "right"
@@ -84,81 +88,55 @@ const translateAlignment = (
   return result;
 };
 
-export const Footer = styled.div<ComponentProps>`
+export const AppNavBar = styled.div<ComponentProps>`
   width: ${(props) => (props.floating ? "auto" : "100%")};
   z-index: 999;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: ${(props) => (props.sticky ? "sticky" : "static")};
-  padding: ${(props) => props.padding || FooterPadding};
+  padding: ${(props) => props.padding || AppNavBarPadding};
   bottom: ${(props) =>
-    props.sticky ? (props.floating ? FooterFloatingMargin : "0") : "auto"};
-  background: ${(props) => props.background || FooterBackground};
+    props.sticky ? (props.floating ? AppNavBarFloatingMargin : "0") : "auto"};
+  background: ${(props) => props.background || AppNavBarBackground};
   color: ${(props) => props.color || TextColor};
   border-bottom: ${(props) => props.borderThickness || BorderThickness} solid
     ${(props) => props.borderColor || Transparent};
-  height: ${(props) => props.height || 'auto'};
-  min-height: ${(props) => props.minHeight || FooterHeight};
-  box-shadow: ${(props) => props.boxShadow || FooterBoxShadow};
+  height: ${(props) => props.height || AppNavBarHeight};
+  min-height: ${(props) => props.minHeight || AppNavBarHeight};
+  box-shadow: ${(props) => props.boxShadow || AppNavBarBoxShadow};
   backdrop-filter: ${(props) =>
-    props.glassEffect ? FooterBackdropFilter : "none"};
+    props.glassEffect ? AppNavBarBackdropFilter : "none"};
   margin: ${(props) =>
     props.floating
-      ? props.margin || FooterFloatingMargin
-      : props.margin || FooterMargin};
+      ? props.margin || AppNavBarFloatingMargin
+      : props.margin || AppNavBarMargin};
   border-radius: ${(props) =>
     props.floating
-      ? props.borderRadius || FooterFloatingBorderRadius
-      : props.borderRadius || FooterBorderRadius};
-      @media (max-width: calc(${(props) =>
-        props.mobileBreakingPoint || FooterMobileBreakingPoint} + 1px)) {
-      flex-direction: column;
-`;
-
-export const FooterDesktop = styled.div<ComponentProps>`
-  display: none;
+      ? props.borderRadius || AppNavBarFloatingBorderRadius
+      : props.borderRadius || AppNavBarBorderRadius};
   @media (min-width: calc(${(props) =>
-      props.mobileBreakingPoint || FooterMobileBreakingPoint} + 1px)) {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    height: 100%;
-    gap: ${(props) => props.gap || DefaultGap};
-  }
-`;
-
-export const FooterMobile = styled.div<ComponentProps>`
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  height: 100%;
-  gap: ${(props) => props.gap || DefaultGap};
-  @media (min-width: calc(${(props) =>
-      props.mobileBreakingPoint || FooterMobileBreakingPoint} + 1px)) {
+      props.mobileBreakingPoint || AppNavBarMobileBreakingPoint} + 1px)) {
     display: none;
   }
 `;
 
-export const FooterContainer = styled.div<ComponentProps>`
+export const AppNavBarSection = styled.div<ComponentProps>`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: ${(props) => props.width || PageWrapperDefaultWidth};
-  height: 100%;
-  margin: auto;
-  gap: ${(props) => props.gap || DefaultGap};
-`;
-
-export const FooterSection = styled.div<ComponentProps>`
-  display: flex;
-  flex-direction: column;
   align-items: ${(props) =>
-    translateAlignment(props.alignHorizontal, "horizontal", "center")};
+    translateAlignment(props.alignVertical, "vertical", "center")};
   justify-content: ${(props) =>
-    translateAlignment(props.alignVertical, "vertical", "flex-start")};
+    translateAlignment(props.alignHorizontal, "horizontal", "center")};
   height: 100%;
   width: 100%;
-  padding: ${FooterSectionPadding};
-  margin: ${(props) => props.margin || '0'};
+  padding: ${AppNavBarSectionPadding};
+  margin: ${(props) => props.margin || "0"};
+  &:hover {
+    background: ${(props) =>
+      props.backgroundHover || AppNavBarSectionHoverBackground};
+  }
+  &:active {
+    background: ${(props) =>
+      props.backgroundHover || AppNavBarSectionActiveBackground};
+  }
 `;

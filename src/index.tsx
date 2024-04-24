@@ -9,6 +9,7 @@ import './base.css'
 export * from './Colors'
 
 // Export Llane UI components
+export * from './AppNavBar'
 export * from './Box'
 export * from './Button'
 export * from './Divider'
