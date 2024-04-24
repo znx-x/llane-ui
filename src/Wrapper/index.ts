@@ -105,7 +105,7 @@ export const PageWrapper = styled.div<ComponentProps>`
   padding: ${(props) => props.margin || PageWrapperPadding};
   width: ${(props) => props.width || PageWrapperDefaultWidth};
   max-width: ${(props) => props.maxWidth || PageWrapperDefaultWidth};
-  min-width: ${(props) => props.minWidth || PageWrapperDefaultWidth};
+  min-width: ${(props) => props.minWidth || 'auto'};
   @media (max-width: ${PageWrapperDefaultWidth}) {
     width: auto;
   }
