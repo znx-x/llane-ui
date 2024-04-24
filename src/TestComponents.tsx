@@ -63,6 +63,7 @@ import {
   HamburgerMenuDropdown
 } from "./";
 import { Container } from "./Container";
+import TestModal from "./Modal/TestModal";
 import LlaneLogo from "./TestingAssets/logo.png";
 
 function TestComponents() {
@@ -256,6 +257,11 @@ function TestComponents() {
           <Box>
             <HeadingLarge>Toggle Button</HeadingLarge>
             <ToggleButton toggled={false} />
+          </Box>
+          <Spacer />
+          <Box>
+            <HeadingLarge>Modal</HeadingLarge>
+            <TestModal />
           </Box>
         </PageWrapper>
 
