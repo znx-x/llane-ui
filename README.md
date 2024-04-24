@@ -5,6 +5,7 @@ Llanne UI is an open-source project, ready-to-use React.js components library th
 
 **Live Components Demo on Netlify:** https://main--capable-dragon-152070.netlify.app  
 **Latest NPM Package Published:** https://www.npmjs.com/package/llane-ui
+**GitHub Repository:** https://github.com/znx-x/llane-ui
 
 > [!WARNING]
 > **Ongoing Development:** This is an ongoing project with heavy development underway. Contributions are welcomed and more documentation will be uploaded as the project develops.
