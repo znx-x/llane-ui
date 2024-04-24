@@ -120,20 +120,21 @@ Full list of supported components. Each component might have their own custom pr
 - ✅ **Button:** `Button` `ButtonAlt` `ButtonOutlined` `ButtonOutlinedAlt`
 - ✅ **Container:** `Container`
 - ✅ **Divider:** `Divider`
-- 🔴 **Dropdown**
+- ✅ **Dropdown:** `Dropdown` `DropdownLink`
 - ✅ **FlexContainer:** `FlexContainer`
 - ✅ **Footer:** `Footer` `FooterContainer` `FooterDesktop` `FooterMobile` `FooterSection`
 - ✅ **GridContainer:** `GridContainer`
-- 🔴 **HamburgerMenu**
+- ✅ **HamburgerMenu:** `HamburgerMenu` `HamburgerMenuDropdown` `HamburgerMenuLink`
 - ✅ **Header:** `Header` `HeaderContainer` `HeaderDesktop` `HeaderMobile` `HeaderSection` `HeaderLink`
 - ✅ **Icons**
 - ✅ **Image:** `Image`
 - ✅ **Input:** `Input` `InputOutlined`
 - ✅ **Link:** `Link` `LinkWrapper`
-- 🔴 **Modal**
+- ✅ **Modal:** `Modal`
 - ✅ **Typography:** `HeadingExtraLarge` `HeadingLarge` `Heading` `HeadingSmall` `HeadingExtraSmall` `HeadingTiny` `TextExtraLarge` `TextLarge` `Text` `TextSmall` `TextExtraSmall` `TextDimmed`
 - ✅ **Spacer:** `Spacer` `Sp` `Break`
 - ✅ **Span:** `Span`
+- ✅ **Submenu:** `Submenu` `SubmenuLink`
 - ✅ **TextArea:** `TextArea` `TextAreaOutlined`
 - ✅ **Toggle:** `ThemeToggle` `ToggleButton`
 - ✅ **Wrapper:** `AppWrapper` `PageWrapper`

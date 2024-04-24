@@ -2,6 +2,7 @@
 export const BorderRadius = `50px`;
 export const DefaultGap = `1rem`;
 export const BorderThickness = `1px`;
+export const DefaultBoxShadow = `0 2px 8px rgba(0, 0, 0, 0.1)`;
 
 // App Navigation Bar
 export const AppNavBarHeight = `72px`;
@@ -39,6 +40,13 @@ export const ButtonLinkPadding = `12px 17px`;
 // Divider
 export const DividerLineThickness = `1px`;
 
+// Dropdown
+export const DropdownPadding = `15px 15px`;
+export const DropdownFontSize = `0.9rem`;
+export const DropdownContainerPadding = `20px 0`;
+export const DropdownContainerBorderRadius = `5px`;
+export const DropdownLinkPadding = `20px`;
+
 // Footer
 export const FooterHeight = `auto`;
 export const FooterBackdropFilter = `blur(10px)`;
@@ -52,10 +60,13 @@ export const FooterSectionPadding = `auto`;
 export const FooterMobileBreakingPoint = `769px`;
 
 // Hamburger Menu
-export const HamburgerMenuLinkPadding = `15px 20px`;
-export const HamburgerMenuContainerPadding = `15px 0`;
-export const HamburgerMenuContainerBorderRadius = `5px`;
-export const HamburgerMenuContainerBorderThickness = `1px`;
+export const HamburgerMenuLinkPadding = `20px`;
+export const HamburgerMenuContainerPadding = `20px 0`;
+export const HamburgerMenuContainerBorderRadius = `10px`;
+export const HamburgerMenuContainerBorderThickness = `0px`;
+export const HamburgerMenuContainerMinWidth = `200px`;
+export const HamburgerMenuBoxShadow = `0 2px 8px rgba(0, 0, 0, 0.1)`;
+export const HamburgerMenuDropdownFontSize = `0.9rem`;
 
 // Header
 export const HeaderHeight = `72px`;
@@ -78,6 +89,13 @@ export const PageWrapperMargin = `0`;
 export const PageWrapperPadding = `20px`;
 export const PageWrapperOverflow = 'auto';
 export const PageWrapperDefaultWidth = `1320px`;
+
+// Submenu
+export const SubmenuPadding = `1rem`;
+export const SubmenuFontSize = `0.9rem`;
+export const SubmenuContainerPadding = `20px 0`;
+export const SubmenuContainerBorderRadius = `5px`;
+export const SubmenuLinkPadding = `20px`;
 
 // Text Area
 export const TextAreaBorderRadius = `10px`;

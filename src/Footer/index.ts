@@ -1,9 +1,5 @@
 import styled from "styled-components";
-import {
-  TextColor,
-  Transparent,
-  FooterBackground,
-} from "../Colors";
+import { TextColor, Transparent, FooterBackground } from "../Colors";
 import {
   FooterHeight,
   FooterBoxShadow,
@@ -98,7 +94,7 @@ export const Footer = styled.div<ComponentProps>`
   color: ${(props) => props.color || TextColor};
   border-bottom: ${(props) => props.borderThickness || BorderThickness} solid
     ${(props) => props.borderColor || Transparent};
-  height: ${(props) => props.height || 'auto'};
+  height: ${(props) => props.height || "auto"};
   min-height: ${(props) => props.minHeight || FooterHeight};
   box-shadow: ${(props) => props.boxShadow || FooterBoxShadow};
   backdrop-filter: ${(props) =>
@@ -114,6 +110,7 @@ export const Footer = styled.div<ComponentProps>`
       @media (max-width: calc(${(props) =>
         props.mobileBreakingPoint || FooterMobileBreakingPoint} + 1px)) {
       flex-direction: column;
+        }
 `;
 
 export const FooterDesktop = styled.div<ComponentProps>`
@@ -160,5 +157,5 @@ export const FooterSection = styled.div<ComponentProps>`
   height: 100%;
   width: 100%;
   padding: ${FooterSectionPadding};
-  margin: ${(props) => props.margin || '0'};
+  margin: ${(props) => props.margin || "0"};
 `;

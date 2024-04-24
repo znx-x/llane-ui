@@ -1,12 +1,12 @@
 {
   "name": "llane-ui",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && tsc && node dist-lib.js",
+    "build": "tsc && node dist-lib.js",
     "test": "react-scripts start",
     "deploy-test-app": "react-scripts build",
     "eject": "react-scripts eject"

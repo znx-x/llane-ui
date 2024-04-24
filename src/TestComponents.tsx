@@ -60,7 +60,11 @@ import {
   FooterMobile,
   HamburgerMenu,
   HamburgerMenuLink,
-  HamburgerMenuDropdown
+  HamburgerMenuDropdown,
+  Dropdown,
+  DropdownLink,
+  Submenu,
+  SubmenuLink
 } from "./";
 import { Container } from "./Container";
 import TestModal from "./Modal/TestModal";
@@ -79,16 +83,13 @@ function TestComponents() {
               <Heading margin="0 1rem">
                 <b>Llane UI</b>
               </Heading>
-              {/* NOT READY YET
-              <HamburgerMenu>
-                <HamburgerMenuLink href='#'>Link 1</HamburgerMenuLink>
-                <HamburgerMenuDropdown>
-                  <HamburgerMenuLink href='#'>Link 2</HamburgerMenuLink>
-                </HamburgerMenuDropdown>
-              </HamburgerMenu>
-              */}
-              <HeaderLink href="#">Link 1</HeaderLink>
-              <HeaderLink href="#">Link 2</HeaderLink>
+              <HeaderLink href="#">Menu Link 1</HeaderLink>
+              <HeaderLink href="#">Menu Link 2</HeaderLink>
+              <Submenu title="Submenu">
+                <SubmenuLink>Submenu Link 1</SubmenuLink>
+                <SubmenuLink>Submenu Link 2</SubmenuLink>
+              </Submenu>
+              <HeaderLink href="#">Menu Link 3</HeaderLink>
             </HeaderSection>
             <HeaderSection alignHorizontal="right">
               <ThemeToggle />
@@ -106,13 +107,21 @@ function TestComponents() {
               <ThemeToggle />
 
               <HamburgerMenu>
-                <HamburgerMenuLink href='#'>Link 1</HamburgerMenuLink>
-                <HamburgerMenuDropdown>
-                  <HamburgerMenuLink href='#'>Link 2</HamburgerMenuLink>
+                <HamburgerMenuLink href="#">Menu Link 1</HamburgerMenuLink>
+                <HamburgerMenuDropdown title="Dropdown Example">
+                  <HamburgerMenuLink href="#">
+                    Dropdown Menu 1
+                  </HamburgerMenuLink>
+                  <HamburgerMenuLink href="#">
+                    Dropdown Menu 2
+                  </HamburgerMenuLink>
+                  <HamburgerMenuLink href="#">
+                    Dropdown Menu 3
+                  </HamburgerMenuLink>
                 </HamburgerMenuDropdown>
+                <HamburgerMenuLink href="#">Menu Link 2</HamburgerMenuLink>
+                <HamburgerMenuLink href="#">Menu Link 3</HamburgerMenuLink>
               </HamburgerMenu>
-              <HeaderLink href="#">Link 1</HeaderLink>
-              <HeaderLink href="#">Link 2</HeaderLink>
             </HeaderSection>
           </HeaderMobile>
         </Header>
@@ -237,6 +246,16 @@ function TestComponents() {
             </GridContainer>
           </BoxOutlined>
           <Spacer />
+          <BoxOutlined>
+            <HeadingLarge>Dropdown</HeadingLarge>
+            <Dropdown title="Dropdown Example">
+              <DropdownLink>Dropdown Option 1</DropdownLink>
+              <DropdownLink>Dropdown Option 2</DropdownLink>
+              <DropdownLink>Dropdown Option 3</DropdownLink>
+              <DropdownLink>Dropdown Option 4</DropdownLink>
+            </Dropdown>
+          </BoxOutlined>
+          <Spacer />
           <Box>
             <HeadingLarge>Span Components</HeadingLarge>
             <Text>
@@ -319,17 +338,15 @@ function TestComponents() {
         </FooterDesktop>
         <FooterMobile>
           <Footer>
-          <FooterSection>
-            <LinkWrapper href="#">
-              <Image src={LlaneLogo} width="48px" />
-            </LinkWrapper>
-            <Spacer gap="0.5rem" />
-            <HeadingSmall>Special Mobile Footer</HeadingSmall>
-            <Spacer gap='0.2rem' />
-            <Text weight="light">
-              Created with Llane UI
-            </Text>
-          </FooterSection>
+            <FooterSection>
+              <LinkWrapper href="#">
+                <Image src={LlaneLogo} width="48px" />
+              </LinkWrapper>
+              <Spacer gap="0.5rem" />
+              <HeadingSmall>Special Mobile Footer</HeadingSmall>
+              <Spacer gap="0.2rem" />
+              <Text weight="light">Created with Llane UI</Text>
+            </FooterSection>
           </Footer>
         </FooterMobile>
       </AppWrapper>
