@@ -41,6 +41,9 @@ interface ComponentProps {
   decorationHover?: string;
   colorHover?: string;
   width?: string;
+  minWidth?: string;
+  maxWidth?: string;
+  maxHeight?: string;
   gap?: string;
   padding?: string;
   mobileBreakingPoint?: string;
@@ -87,6 +90,8 @@ const translateAlignment = (
 
 export const Header = styled.div<ComponentProps>`
   width: ${(props) => (props.floating ? "auto" : "100%")};
+  min-width: ${(props) => props.minWidth || 'auto'};
+  max-width: ${(props) => props.maxWidth || 'auto'};
   z-index: 999;
   display: flex;
   flex-direction: row;
@@ -102,6 +107,7 @@ export const Header = styled.div<ComponentProps>`
     ${(props) => props.borderColor || Transparent};
   height: ${(props) => props.height || HeaderHeight};
   min-height: ${(props) => props.minHeight || HeaderHeight};
+  max-height: ${(props) => props.maxHeight || 'auto'};
   box-shadow: ${(props) => props.boxShadow || HeaderBoxShadow};
   backdrop-filter: ${(props) =>
     props.glassEffect ? HeaderBackdropFilter : "none"};

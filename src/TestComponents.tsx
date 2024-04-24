@@ -300,7 +300,7 @@ function TestComponents() {
         </AppNavBar>
 
         <FooterDesktop>
-          <Footer>
+          <Footer sticky={false}>
             <FooterSection>
               <LinkWrapper href="#">
                 <Image src={LlaneLogo} width="48px" />

@@ -36,6 +36,9 @@ interface ComponentProps {
   decorationHover?: string;
   colorHover?: string;
   width?: string;
+  minWidth?: string;
+  maxWidth?: string;
+  maxHeight?: string;
   gap?: string;
   padding?: string;
   mobileBreakingPoint?: string;
@@ -97,6 +100,9 @@ export const Footer = styled.div<ComponentProps>`
     ${(props) => props.borderColor || Transparent};
   height: ${(props) => props.height || "auto"};
   min-height: ${(props) => props.minHeight || FooterHeight};
+  min-width: ${(props) => props.minWidth};
+  max-width: ${(props) => props.maxWidth};
+  max-height: ${(props) => props.maxHeight};
   box-shadow: ${(props) => props.boxShadow || FooterBoxShadow};
   backdrop-filter: ${(props) =>
     props.glassEffect ? FooterBackdropFilter : "none"};

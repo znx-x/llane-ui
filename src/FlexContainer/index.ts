@@ -14,6 +14,12 @@ interface ComponentProps {
   gap?: string;
   margin?: string;
   padding?: string;
+  minWidth?: string;
+  minHeight?: string;
+  maxWidth?: string;
+  maxHeight?: string;
+  width?: string;
+  height?: string;
   alignHorizontal?:
     | "left"
     | "right"
@@ -67,6 +73,12 @@ export const FlexContainer = styled.div<ComponentProps>`
   gap: ${(props) => props.gap};
   padding: ${(props) => props.padding};
   margin: ${(props) => props.margin};
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  min-width: ${(props) => props.minWidth};
+  min-height: ${(props) => props.minHeight};
+  max-width: ${(props) => props.maxWidth};
+  max-height: ${(props) => props.maxHeight};
   text-align: ${(props) => props.alignText || "left"};
   &:hover {
     background: ${(props) => props.backgroundHover};

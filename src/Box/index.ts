@@ -36,6 +36,10 @@ interface ComponentProps {
   alignText?: string;
   width?: string;
   height?: string;
+  minWidth?: string;
+  minHeight?: string;
+  maxWidth?: string;
+  maxHeight?: string;
   overflow?: string;
 }
 
@@ -75,6 +79,10 @@ export const Box = styled.div<ComponentProps>`
   text-align: ${(props) => props.alignText};
   width: ${(props) => props.width};
   height: ${(props) => props.height};
+  min-width: ${(props) => props.minWidth};
+  min-height: ${(props) => props.minHeight};
+  max-width: ${(props) => props.maxWidth};
+  max-height: ${(props) => props.maxHeight};
   overflow: ${(props) => props.overflow};
   color: ${TextColor};
   &:hover {
@@ -102,6 +110,10 @@ export const BoxOutlined = styled.div<ComponentProps>`
   text-align: ${(props) => props.alignText};
   width: ${(props) => props.width};
   height: ${(props) => props.height};
+  min-width: ${(props) => props.minWidth};
+  min-height: ${(props) => props.minHeight};
+  max-width: ${(props) => props.maxWidth};
+  max-height: ${(props) => props.maxHeight};
   overflow: ${(props) => props.overflow};
   &:hover {
     background: ${(props) => props.backgroundHover};

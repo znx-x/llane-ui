@@ -14,6 +14,12 @@ interface ComponentProps {
   gap?: string;
   margin?: string;
   padding?: string;
+  height?: string;
+  width?: string;
+  minWidth?: string;
+  minHeight?: string;
+  maxWidth?: string;
+  maxHeight?: string;
   alignHorizontal?:
     | "left"
     | "right"
@@ -67,6 +73,12 @@ export const GridContainer = styled.div<ComponentProps>`
   padding: ${(props) => props.padding};
   margin: ${(props) => props.margin};
   text-align: ${(props) => props.alignText || "left"};
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  min-width: ${(props) => props.minWidth};
+  min-height: ${(props) => props.minHeight};
+  max-width: ${(props) => props.maxWidth};
+  max-height: ${(props) => props.maxHeight};
   &:hover {
     background: ${(props) => props.backgroundHover};
   }

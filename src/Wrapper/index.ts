@@ -20,6 +20,11 @@ interface ComponentProps {
   overflow?: string;
   padding?: string;
   width?: string;
+  height?: string;
+  minWidth?: string;
+  minHeight?: string;
+  maxWidth?: string;
+  maxHeight?: string;
   alignHorizontal?:
     | "left"
     | "right"
@@ -82,20 +87,25 @@ export const AppWrapper = styled.div<ComponentProps>`
   overflow: ${(props) => props.overflow || AppWrapperOverflow};
   padding: ${(props) => props.padding || AppWrapperPadding};
   width: ${(props) => props.width || '100%'};
-  max-width: ${AppWrapperDefaultWidth};
-  min-height: 100vh;
-  
+  max-width: ${(props) => props.maxWidth || AppWrapperDefaultWidth};
+  min-width: ${(props) => props.minWidth || 'auto'};
+  min-height: ${(props) => props.height || '100vh'};
+  max-height: ${(props) => props.maxHeight || 'auto'};
+  height: ${(props) => props.height || 'auto'};
 `;
 
 export const PageWrapper = styled.div<ComponentProps>`
-  height: auto;
+  height: ${(props) => props.height || 'auto'};
+  min-height: ${(props) => props.minHeight || 'auto'};
+  max-height: ${(props) => props.maxHeight || 'auto'};
   background: ${(props) => props.background || Transparent};
   background-image: ${(props) => props.backgroundImage || "none"};
   margin: ${(props) => props.margin || PageWrapperMargin};
   overflow: ${(props) => props.margin || PageWrapperOverflow};
   padding: ${(props) => props.margin || PageWrapperPadding};
   width: ${(props) => props.width || PageWrapperDefaultWidth};
-  max-width: ${(props) => props.width || PageWrapperDefaultWidth};
+  max-width: ${(props) => props.maxWidth || PageWrapperDefaultWidth};
+  min-width: ${(props) => props.minWidth || PageWrapperDefaultWidth};
   @media (max-width: ${PageWrapperDefaultWidth}) {
     width: auto;
   }

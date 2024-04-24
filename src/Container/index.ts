@@ -12,6 +12,10 @@ interface ComponentProps {
   overflow?: string;
   padding?: string;
   width?: string;
+  minWidth?: string;
+  minHeight?: string;
+  maxWidth?: string;
+  maxHeight?: string;
 }
 
 export const Container = styled.div<ComponentProps>`
@@ -23,4 +27,8 @@ export const Container = styled.div<ComponentProps>`
     overflow: ${(props) => props.overflow};
     padding: ${(props) => props.padding};
     width: ${(props) => props.width};
+    min-width: ${(props) => props.minWidth};
+    min-height: ${(props) => props.minHeight};
+    max-width: ${(props) => props.maxWidth};
+    max-height: ${(props) => props.maxHeight};
 `;

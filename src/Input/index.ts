@@ -22,6 +22,11 @@ interface ComponentProps {
   margin?: string;
   padding?: string;
   width?: string;
+  minWidth?: string;
+  minHeight?: string;
+  maxWidth?: string;
+  maxHeight?: string;
+  height?: string;
 }
 
 export const Input = styled.input<ComponentProps>`
@@ -35,6 +40,10 @@ export const Input = styled.input<ComponentProps>`
   margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
+  min-width: ${(props) => props.minWidth};
+  min-height: ${(props) => props.minHeight};
+  max-height: ${(props) => props.maxHeight};
+  height: ${(props) => props.height};
 `;
 
 export const InputOutlined = styled.input<ComponentProps>`
@@ -48,4 +57,8 @@ export const InputOutlined = styled.input<ComponentProps>`
   margin: ${(props) => props.margin || 'auto'};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
+  min-width: ${(props) => props.minWidth};
+  min-height: ${(props) => props.minHeight};
+  max-height: ${(props) => props.maxHeight};
+  height: ${(props) => props.height};
 `;
