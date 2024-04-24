@@ -51,6 +51,12 @@ export const FooterFloatingBorderRadius = `10px`;
 export const FooterSectionPadding = `auto`;
 export const FooterMobileBreakingPoint = `769px`;
 
+// Hamburger Menu
+export const HamburgerMenuLinkPadding = `15px 20px`;
+export const HamburgerMenuContainerPadding = `15px 0`;
+export const HamburgerMenuContainerBorderRadius = `5px`;
+export const HamburgerMenuContainerBorderThickness = `1px`;
+
 // Header
 export const HeaderHeight = `72px`;
 export const HeaderBackdropFilter = `blur(10px)`;

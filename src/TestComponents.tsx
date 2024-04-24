@@ -60,6 +60,7 @@ import {
   FooterMobile
 } from "./";
 import { Container } from "./Container";
+import { HamburgerMenu, HamburgerMenuDropdown, HamburgerMenuLink } from "./HamburgerMenu";
 import LlaneLogo from "./TestingAssets/logo.png";
 
 function TestComponents() {
@@ -75,6 +76,12 @@ function TestComponents() {
               <Heading margin="0 1rem">
                 <b>Llane UI</b>
               </Heading>
+              <HamburgerMenu>
+                <HamburgerMenuLink href='#'>Link 1</HamburgerMenuLink>
+                <HamburgerMenuDropdown>
+                  <HamburgerMenuLink href='#'>Link 2</HamburgerMenuLink>
+                </HamburgerMenuDropdown>
+              </HamburgerMenu>
               <HeaderLink href="#">Link 1</HeaderLink>
               <HeaderLink href="#">Link 2</HeaderLink>
             </HeaderSection>

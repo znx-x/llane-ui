@@ -65,3 +65,4 @@ export const FooterBackground = getThemeColor('rgba(44, 44, 44, 0.5)', 'rgba(233
 export const AppNavBarBackground = getThemeColor('rgba(44, 44, 44, 0.9)', 'rgba(233, 238, 246, 0.9)'); // Semi-transparent Dark Gray | Semi-transparent Light Blue
 export const AppNavBarSectionHoverBackground = getThemeColor('rgba(44, 44, 44, 1)', 'rgba(233, 238, 246, 1)'); // Dark Gray | Light Blue
 export const AppNavBarSectionActiveBackground = getThemeColor('rgba(44, 44, 44, 1)', 'rgba(233, 238, 246, 1)'); // Dark Gray | Light Blue
+export const HamburgerMenuLinkHoverBackground = getThemeColor('rgba(22, 22, 22, 1)', 'rgba(233, 238, 246, 1)'); // Dark Gray | Light Blue

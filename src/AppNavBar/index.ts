@@ -15,8 +15,6 @@ import {
   AppNavBarFloatingMargin,
   AppNavBarFloatingBorderRadius,
   BorderThickness,
-  PageWrapperDefaultWidth,
-  DefaultGap,
   AppNavBarPadding,
   AppNavBarSectionPadding,
   AppNavBarMobileBreakingPoint,
