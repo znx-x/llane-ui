@@ -1,8 +1,8 @@
 import React, { useState, ReactNode } from 'react';
 import styled from 'styled-components';
 import { IcoMenu, IcoX } from '../Icons';
-import { BorderColor, ComponentBackground, HamburgerMenuLinkHoverBackground, TextColor, Transparent } from '..';
-import { HamburgerMenuContainerBorderRadius, HamburgerMenuContainerBorderThickness, HamburgerMenuContainerPadding, HamburgerMenuLinkPadding } from '../BaseThemeStyle';
+import { BorderColor, ComponentBackground, HamburgerMenuLinkHoverBackground, TextColor } from '..';
+import { HamburgerMenuContainerBorderRadius, HamburgerMenuContainerBorderThickness, HamburgerMenuContainerPadding } from '../BaseThemeStyle';
 
 interface ComponentProps {
   color?: string;

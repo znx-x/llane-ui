@@ -94,7 +94,7 @@ export const AppNavBar = styled.div<ComponentProps>`
   justify-content: space-between;
   position: ${(props) => (props.sticky ? "sticky" : "static")};
   padding: ${(props) => props.padding || AppNavBarPadding};
-  bottom: ${(props) =>
+  ${(props) => props.position || AppNavBarDefaultPosition}: ${(props) =>
     props.sticky ? (props.floating ? AppNavBarFloatingMargin : "0") : "auto"};
   background: ${(props) => props.background || AppNavBarBackground};
   color: ${(props) => props.color || TextColor};
