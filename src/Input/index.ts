@@ -44,6 +44,9 @@ export const Input = styled.input<ComponentProps>`
   min-height: ${(props) => props.minHeight};
   max-height: ${(props) => props.maxHeight};
   height: ${(props) => props.height};
+  &:focus {
+    outline: none;
+  }
 `;
 
 export const InputOutlined = styled.input<ComponentProps>`
@@ -61,4 +64,7 @@ export const InputOutlined = styled.input<ComponentProps>`
   min-height: ${(props) => props.minHeight};
   max-height: ${(props) => props.maxHeight};
   height: ${(props) => props.height};
+  &:focus {
+    outline: none;
+  }
 `;

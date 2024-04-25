@@ -12,6 +12,7 @@ import {
 } from "..";
 import {
   BorderThickness,
+  DropdownButtonBorderRadius,
   DropdownContainerBorderRadius,
   DropdownContainerPadding,
   DropdownFontSize,
@@ -67,7 +68,7 @@ const DropdownContainer = styled.div<ComponentProps>`
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  top: calc(100% - ${DropdownContainerBorderRadius});
+  top: calc(100% - ${DropdownButtonBorderRadius});
   background: ${ComponentBackground};
   padding: ${(props) => props.padding || DropdownContainerPadding};
   border-radius: ${DropdownContainerBorderRadius};
@@ -84,7 +85,7 @@ const DropdownContainer = styled.div<ComponentProps>`
 const DropdownToggle = styled.div<ComponentProps>`
   background: ${ComponentBackground};
   border: ${BorderThickness} solid ${DarkBorderColor};
-  border-radius: ${DropdownContainerBorderRadius};
+  border-radius: ${DropdownButtonBorderRadius};
   color: ${TextColor};
   font-size: ${DropdownFontSize};
   padding: ${DropdownPadding};

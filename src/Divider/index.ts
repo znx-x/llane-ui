@@ -9,6 +9,7 @@ interface ComponentProps {
 }
 
 export const Divider = styled.div<ComponentProps>`
+  box-sizing: border-box;
   border-top: ${(props) => props.thickness || DividerLineThickness} solid
     ${(props) => props.color || BorderColor};
   margin-top: ${(props) => props.gap || DefaultGap};

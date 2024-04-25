@@ -118,7 +118,7 @@ Full list of supported components. Each component might have their own custom pr
 
 - ✅ **AppNavBar:** `AppNavBar` `AppNavBarSection`
 - ✅ **Box:** `Box` `BoxOutlined`
-- ✅ **Button:** `Button` `ButtonAlt` `ButtonOutlined` `ButtonOutlinedAlt`
+- ✅ **Button:** `Button` `ButtonAlt` `ButtonOutlined` `ButtonOutlinedAlt` `ButtonOutlinedDimmed` `ButtonLink` `ButtonLinkAlt` `ButtonLinkOutlined` `ButtonLinkOutlinedAlt`
 - ✅ **Container:** `Container`
 - ✅ **Divider:** `Divider`
 - ✅ **Dropdown:** `Dropdown` `DropdownLink`

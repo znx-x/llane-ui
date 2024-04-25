@@ -64,7 +64,8 @@ import {
   Dropdown,
   DropdownLink,
   Submenu,
-  SubmenuLink
+  SubmenuLink,
+  ButtonOutlinedDimmed
 } from "./";
 import { Container } from "./Container";
 import TestModal from "./Modal/TestModal";
@@ -127,6 +128,7 @@ function TestComponents() {
         </Header>
 
         <PageWrapper>
+          <Spacer />
           <Box>
             <HeadingExtraLarge>Heading Extra Large</HeadingExtraLarge>
             <HeadingLarge>Heading Large</HeadingLarge>
@@ -166,6 +168,7 @@ function TestComponents() {
             <ButtonOutlinedAlt width="240px">
               Button Outlined Alternative
             </ButtonOutlinedAlt>
+            <ButtonOutlinedDimmed width="240px">Button Outlined Dimmed</ButtonOutlinedDimmed>
           </Box>
           <Spacer />
           <Box>
@@ -282,6 +285,7 @@ function TestComponents() {
             <HeadingLarge>Modal</HeadingLarge>
             <TestModal />
           </Box>
+          <Spacer />
         </PageWrapper>
 
         <AppNavBar sticky={true} glassEffect={true}>

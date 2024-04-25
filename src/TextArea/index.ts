@@ -33,7 +33,10 @@ export const TextArea = styled.textarea<ComponentProps>`
   padding: ${TextAreaPadding};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
-  resize: ${(props) => props.resize || 'true'}
+  resize: ${(props) => props.resize || 'true'};
+  &:focus {
+    outline: none;
+  }
 `;
 
 export const TextAreaOutlined = styled.textarea<ComponentProps>`
@@ -46,5 +49,8 @@ export const TextAreaOutlined = styled.textarea<ComponentProps>`
   padding: ${TextAreaPadding};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
-  resize: ${(props) => props.resize || 'true'}
+  resize: ${(props) => props.resize || 'true'};
+  &:focus {
+    outline: none;
+  }
 `;

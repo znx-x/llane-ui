@@ -62,7 +62,8 @@ const SubmenuContainer = styled.div`
   overflow-x: hidden;
   overflow-y: auto;
   box-sizing: border-box;
-  width: 240px;
+  width: auto;
+  min-width: 260px;
 `;
 
 const SubmenuToggle = styled.div`

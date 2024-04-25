@@ -92,6 +92,7 @@ export const AppNavBar = styled.div<ComponentProps>`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-sizing: border-box;
   position: ${(props) => (props.sticky ? "sticky" : "static")};
   padding: ${(props) => props.padding || AppNavBarPadding};
   ${(props) => props.position || AppNavBarDefaultPosition}: ${(props) =>
@@ -129,6 +130,7 @@ export const AppNavBarSection = styled.div<ComponentProps>`
   width: 100%;
   padding: ${AppNavBarSectionPadding};
   margin: ${(props) => props.margin || "0"};
+  box-sizing: border-box;
   &:hover {
     background: ${(props) =>
       props.backgroundHover || AppNavBarSectionHoverBackground};

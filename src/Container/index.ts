@@ -19,6 +19,7 @@ interface ComponentProps {
 }
 
 export const Container = styled.div<ComponentProps>`
+    box-sizing: border-box;
     text-align: ${(props) => props.alignText}    
     background: ${(props) => props.background};
     border: ${(props) => props.borderThickness || BorderThickness} solid ${(props) => props.borderColor || Transparent};

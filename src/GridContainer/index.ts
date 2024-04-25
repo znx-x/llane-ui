@@ -61,6 +61,7 @@ const translateAlignment = (
 
 export const GridContainer = styled.div<ComponentProps>`
   display: grid;
+  box-sizing: border-box;
   align-items: ${(props) =>
     translateAlignment(props.alignHorizontal, "horizontal")};
   justify-content: ${(props) =>

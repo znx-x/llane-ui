@@ -65,6 +65,7 @@ const translateAlignment = (
 export const Box = styled.div<ComponentProps>`
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   align-items: ${(props) =>
     translateAlignment(props.alignHorizontal, "horizontal")};
   justify-content: ${(props) =>

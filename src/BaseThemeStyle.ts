@@ -44,7 +44,8 @@ export const DividerLineThickness = `1px`;
 export const DropdownPadding = `15px 15px`;
 export const DropdownFontSize = `0.9rem`;
 export const DropdownContainerPadding = `20px 0`;
-export const DropdownContainerBorderRadius = `5px`;
+export const DropdownButtonBorderRadius = `5px`;
+export const DropdownContainerBorderRadius = `0 0 5px 5px`;
 export const DropdownLinkPadding = `20px`;
 
 // Footer
@@ -86,7 +87,7 @@ export const InputFontSize = `0.9rem`;
 
 // Page Wrapper
 export const PageWrapperMargin = `0`;
-export const PageWrapperPadding = `20px`;
+export const PageWrapperPadding = `auto`;
 export const PageWrapperOverflow = 'auto';
 export const PageWrapperDefaultWidth = `1320px`;
 

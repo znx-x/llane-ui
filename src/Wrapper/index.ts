@@ -67,6 +67,7 @@ const translateAlignment = (
 };
 
 export const AppWrapper = styled.div<ComponentProps>`
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: ${(props) =>
@@ -95,7 +96,8 @@ export const AppWrapper = styled.div<ComponentProps>`
 `;
 
 export const PageWrapper = styled.div<ComponentProps>`
-  height: ${(props) => props.height || 'auto'};
+  box-sizing: border-box;
+  height: ${(props) => props.height || '100%'};
   min-height: ${(props) => props.minHeight || 'auto'};
   max-height: ${(props) => props.maxHeight || 'auto'};
   background: ${(props) => props.background || Transparent};
