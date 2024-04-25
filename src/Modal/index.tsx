@@ -33,7 +33,12 @@ const ModalContent = styled.div<ComponentProps>`
   box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px;
 `
 
-const Modal = ({ open, handleClose, children, ...props }: ModalProps) => {
+export const Modal = ({
+  open,
+  handleClose,
+  children,
+  ...props
+}: ModalProps) => {
   const node = useRef<HTMLDivElement>();
 
   useOnClickOutside(node, handleClose)
@@ -49,5 +54,3 @@ const Modal = ({ open, handleClose, children, ...props }: ModalProps) => {
     </>
   )
 }
-
-export default Modal
