@@ -19,7 +19,7 @@ export const AppNavBarDefaultPosition = `bottom`;
 
 // App Wrapper
 export const AppWrapperAlignHorizontal = `center`;
-export const AppWrapperAlignVertical = `center`;
+export const AppWrapperAlignVertical = `top`;
 export const AppWrapperMargin = `0`;
 export const AppWrapperPadding = `0`;
 export const AppWrapperOverflow = `visible`;
