@@ -1,7 +1,3 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import TestComponents from './TestComponents'
-
 // Imports the base CSS styling
 import './base.css'
 
@@ -34,6 +30,12 @@ export * from './Toggle'
 export * from './Typography'
 export * from './Wrapper'
 
+// --- Comment from this point onwards for any production builds
+/*
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import TestComponents from './TestComponents'
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -42,3 +44,4 @@ root.render(
     <TestComponents />
   </React.StrictMode>
 );
+*/
