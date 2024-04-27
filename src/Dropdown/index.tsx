@@ -68,7 +68,7 @@ const DropdownContainer = styled.div<ComponentProps>`
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  top: calc(100% - ${DropdownButtonBorderRadius});
+  top: calc(100% + 5px);
   background: ${ComponentBackground};
   padding: ${(props) => props.padding || DropdownContainerPadding};
   border-radius: ${DropdownContainerBorderRadius};
@@ -80,6 +80,7 @@ const DropdownContainer = styled.div<ComponentProps>`
   overflow-y: auto;
   box-sizing: border-box;
   width: 240px;
+  z-index: 1000;
 `;
 
 const DropdownToggle = styled.div<ComponentProps>`

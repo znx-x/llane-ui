@@ -41,12 +41,12 @@ export const ButtonLinkPadding = `12px 17px`;
 export const DividerLineThickness = `1px`;
 
 // Dropdown
-export const DropdownPadding = `15px 15px`;
+export const DropdownPadding = `12px 5px`;
 export const DropdownFontSize = `0.9rem`;
-export const DropdownContainerPadding = `20px 0`;
-export const DropdownButtonBorderRadius = `5px`;
-export const DropdownContainerBorderRadius = `0 0 5px 5px`;
-export const DropdownLinkPadding = `20px`;
+export const DropdownContainerPadding = `10px 0`;
+export const DropdownButtonBorderRadius = BorderRadius;
+export const DropdownContainerBorderRadius = `10px`;
+export const DropdownLinkPadding = `12px 10px`;
 
 // Footer
 export const FooterHeight = `auto`;
