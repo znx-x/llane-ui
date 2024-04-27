@@ -1,4 +1,12 @@
-import React, { useState, ReactNode } from "react";
+import React, {
+  useState,
+  ReactNode,
+  ReactElement,
+  ButtonHTMLAttributes,
+  cloneElement,
+  Children,
+  useRef
+} from "react";
 import styled from "styled-components";
 import {
   ComponentBackground,
@@ -8,7 +16,7 @@ import {
   Text,
   IcoChevronDown,
   Sp,
-  Span,
+  Span
 } from "..";
 import {
   BorderThickness,
@@ -17,8 +25,9 @@ import {
   DropdownContainerPadding,
   DropdownFontSize,
   DropdownLinkPadding,
-  DropdownPadding,
+  DropdownPadding
 } from "../BaseThemeStyle";
+import { useOnClickOutside } from "../hooks/useOnClickOutside";
 
 interface ComponentProps {
   color?: string;
@@ -43,7 +52,6 @@ interface ComponentProps {
   margin?: string;
   width?: string;
 }
-
 
 export const DropdownLink = styled.a<ComponentProps>`
   display: block;
@@ -97,7 +105,7 @@ const DropdownToggle = styled.div<ComponentProps>`
 `;
 
 interface DropdownProps {
-  children: ReactNode;
+  children: ReactNode | ReactNode[];
   title?: string;
 }
 
@@ -106,11 +114,33 @@ export const Dropdown: React.FC<DropdownProps> = ({
   title = "Dropdown Title"
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const node = useRef();
+
+  useOnClickOutside(node, () => {
+    setIsOpen(false);
+  });
+
+  const cloneWithClickHandler = (child: ReactElement) => {
+    const originalOnClick = child.props.onClick;
+
+    const handleChildClick = (
+      event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+    ) => {
+      originalOnClick?.(event); // Safely call the original onClick if it exists
+      setIsOpen(false);
+    };
+
+    return cloneElement(child, { onClick: handleChildClick });
+  };
+
+  const enhancedChildren = Children.map(children, (child) =>
+    React.isValidElement(child) ? cloneWithClickHandler(child) : child
+  );
 
   return (
     <DropdownWrapper>
       <DropdownToggle onClick={() => setIsOpen(!isOpen)}>
-      <Text>
+        <Text>
           {title}
           <Sp />
           <Span>
@@ -119,7 +149,9 @@ export const Dropdown: React.FC<DropdownProps> = ({
         </Text>
       </DropdownToggle>
       {isOpen && (
-        <DropdownContainer>{children}</DropdownContainer>
+        <DropdownContainer ref={node as any}>
+          {enhancedChildren}
+        </DropdownContainer>
       )}
     </DropdownWrapper>
   );
