@@ -69,6 +69,7 @@ export const DropdownLink = styled.a<ComponentProps>`
 const DropdownWrapper = styled.div`
   position: relative;
   display: inline-block;
+  width: fit-content;
 `;
 
 const DropdownContainer = styled.div<ComponentProps>`
@@ -138,7 +139,7 @@ export const Dropdown: React.FC<DropdownProps> = ({
   );
 
   return (
-    <DropdownWrapper>
+    <DropdownWrapper ref={node as any}>
       <DropdownToggle onClick={() => setIsOpen(!isOpen)}>
         <Text>
           {title}
@@ -148,11 +149,7 @@ export const Dropdown: React.FC<DropdownProps> = ({
           </Span>
         </Text>
       </DropdownToggle>
-      {isOpen && (
-        <DropdownContainer ref={node as any}>
-          {enhancedChildren}
-        </DropdownContainer>
-      )}
+      {isOpen && <DropdownContainer>{enhancedChildren}</DropdownContainer>}
     </DropdownWrapper>
   );
 };
