@@ -37,13 +37,14 @@ export const Input = styled.input<ComponentProps>`
   color: ${(props) => props.fontColor || TextColor};
   font-size: ${(props) => props.fontSize || InputFontSize};
   padding: ${(props) => props.padding || InputPadding};
-  margin: ${(props) => props.margin || 'auto'};
+  margin: ${(props) => props.margin || "auto"};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
   min-width: ${(props) => props.minWidth};
   min-height: ${(props) => props.minHeight};
   max-height: ${(props) => props.maxHeight};
   height: ${(props) => props.height};
+  box-sizing: border-box;
   &:focus {
     outline: none;
   }
@@ -57,13 +58,14 @@ export const InputOutlined = styled.input<ComponentProps>`
   color: ${(props) => props.fontColor || TextColor};
   font-size: ${(props) => props.fontSize || InputFontSize};
   padding: ${(props) => props.padding || InputPadding};
-  margin: ${(props) => props.margin || 'auto'};
+  margin: ${(props) => props.margin || "auto"};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
   min-width: ${(props) => props.minWidth};
   min-height: ${(props) => props.minHeight};
   max-height: ${(props) => props.maxHeight};
   height: ${(props) => props.height};
+  box-sizing: border-box;
   &:focus {
     outline: none;
   }
